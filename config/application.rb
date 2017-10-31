@@ -14,6 +14,7 @@ require 'csv'
   # Bundler.require(:default, :assets, Rails.env)
 #end
 #Bundler.require(:default, Rails.env)
+Bundler.require(*Rails.groups(:assets => %w(development)))
 #Changed when migrated to rails 4.0.0
 Bundler.require(*Rails.groups)
 
@@ -32,7 +33,7 @@ module DMPRoadmap
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    # config.i18n.default_locale = :de
+     config.i18n.default_locale = :es
 	
 	# Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
@@ -97,7 +98,7 @@ module DMPRoadmap
     # Enable shibboleth as an alternative authentication method
     # Requires server configuration and omniauth shibboleth provider configuration
     # See config/initializers/devise.rb
-    config.shibboleth_enabled = true
+    config.shibboleth_enabled = false
 
     # Relative path to Shibboleth SSO Logout
     config.shibboleth_logout_url = '/Shibboleth.sso/Logout?return='

@@ -41,7 +41,7 @@
                     <% end %>
                     <% answer = @plan.answer(question.id, false) %>
                         <% if answer.nil? then %>
-                            <p>Question not answered</p>
+                            <p><%= t('helpers.plan.export.pdf.question_not_answered') -%></p>
                         <% else %>
                             <% q_format = question.question_format%>
                             <!-- display an answer for questions type 'checkbox','radio_buttons', 'multi_select_box' and 'dropdown'-->

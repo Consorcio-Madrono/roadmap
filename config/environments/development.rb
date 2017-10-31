@@ -8,7 +8,8 @@ Rails.application.configure do
   config.eager_load = false
 
   # Show full error reports and disable caching.
-  config.consider_all_requests_local       = true
+  config.consider_all_requests_local       = false
+  #config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send.
@@ -49,11 +50,11 @@ Rails.application.configure do
 
   config.action_mailer.perform_deliveries = false
 
-  BetterErrors::Midleware.allow_ip! "10.0.2.2" if defined?(BetterErrors) && Rails.env == :development
+#  BetterErrors::Midleware.allow_ip! "10.0.2.2" if defined?(BetterErrors) && Rails.env == :development
 
-  config.after_initialize do
-    ActiveRecord::Base.logger = Rails.logger.clone
-    ActiveRecord::Base.logger.level = Logger::INFO
-    ActiveRecord::Base.logger.level = Logger::DEBUG
-  end
+#  config.after_initialize do
+#    ActiveRecord::Base.logger = Rails.logger.clone
+#    ActiveRecord::Base.logger.level = Logger::INFO
+#    ActiveRecord::Base.logger.level = Logger::DEBUG
+#  end
 end

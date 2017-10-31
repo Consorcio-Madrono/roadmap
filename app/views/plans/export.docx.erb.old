@@ -24,7 +24,7 @@
           <p><%= raw question.text %></p>
         <% answer = @plan.answer(question.id, false) %>
         <% if answer.nil? %>
-          <p><%= 'Question not answered' %></p>
+          <p><%= _('Question not answered') %></p>
         <% else %>
           <% q_format = question.question_format %>
           <% if q_format.option_based? %>

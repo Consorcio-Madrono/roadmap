@@ -8,4 +8,18 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+.dmponline .dropdown-menu > .active > a, .dmponline .dropdown-menu > .active > a:hover, .dmponline .dropdown-menu > .active > a:focus {
+	background-image: none;
+}
 
+.dmponline .dropdown-menu > li > a:hover, .dmponline .dropdown-submenu:hover > a, .dmponline .dropdown-submenu:focus > a {
+	background-image: none;
+	background-color: #e51a4c;
+}
+.dmponline .dropdown-menu > li > a:focus {
+	background-image: none;
+	background-color: #a4052d;
+}
+.dmponline #main-nav-tabs .dropdown ul.dropdown-menu > li > a.main_nav.lang-dropdown-link:hover {
+	background-color: #a4052d;
+}

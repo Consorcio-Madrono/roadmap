@@ -79,13 +79,11 @@
     
     <input type="hidden" id="plan_template_id" name="plan[template_id]"></input>
     
-
-    <!-- This button can not be translated -->
     <%= render partial: 'shared/accessible_submit_button',
                locals: {id: 'create_plan_submit', 
-                         val: 'Crear un Plan', 
+                         val: 'Create Plan', 
                         disabled_initially: true,
-                        tooltip: _('No puede continuar hasta que no haya rellenado toda la información solicitada.')} %>
+                        tooltip: _('You can not continue until you have filled in all of the required information.')} %>
 
   <% end %>
 </div>
