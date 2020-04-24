@@ -2771,3 +2771,218 @@ msgstr ""
 
 msgid "write and edit the plan in a collaborative manner."
 msgstr ""
+
+
+# CONSORCIO MADROÑO. Templates translation
+#orgs
+msgid "European Commission (H2020)"
+msgstr "European Commission (H2020)"
+
+#templates
+msgid "Horizon 2020 DMP"
+msgstr "Horizon 2020 DMP"
+
+msgid "DMP for Horizon 2020 projects"
+msgstr "DMP for Horizon 2020 projects"
+
+#phases
+msgid "Initial DMP"
+msgstr "Initial DMP"
+
+
+msgid "Once a project has had its funding approved and has started, you <strong>must submit a first version of your DMP</strong> (as a deliverable) within the first 6 months of the project"
+msgstr "Once a project has had its funding approved and has started, you <strong>must submit a first version of your DMP</strong> (as a deliverable) within the first 6 months of the project"
+
+msgid "Detailed DMP" 
+msgstr "Detailed DMP" 
+
+msgid "Final review DMP" 
+msgstr "Final review DMP" 
+
+msgid "<p>The DMP needs to be updated over the course of the project whenever significant changes arise, such as (but not limited to):</p><ul><li>new data</li><li>changes in consortium policies (e.g. new innovation potential, decision to file for a patent)</li><li>changes in consortium composition and external factors (e.g. new consortium members joining or old members leaving).</li></ul><p>The DMP should be updated as a minimum in time with the periodic evaluation/assessment of the project.</p><ul><li>If there are no other periodic reviews foreseen within the grant agreement, then such an update needs to be made in time for the final review at the latest.</li><li>Furthermore, the consortium can define a timetable for review in the DMP itself.</li></ul><p><strong>Periodic reporting</strong></p><p>For general information on periodic reporting please check the following sections of the online manual</p><ul><li>how to fill in <a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports/periodic-reports_en.htm#dissem'>reporting tables for publications, deliverables</a> and</li><li><a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports_en.htm#continuous'>process for continuous reporting</a> in the grant management system of the Funding &amp; Tenders Portal.</li></ul>"
+msgstr "<p>The DMP needs to be updated over the course of the project whenever significant changes arise, such as (but not limited to):</p><ul><li>new data</li><li>changes in consortium policies (e.g. new innovation potential, decision to file for a patent)</li><li>changes in consortium composition and external factors (e.g. new consortium members joining or old members leaving).</li></ul><p>The DMP should be updated as a minimum in time with the periodic evaluation/assessment of the project.</p><ul><li>If there are no other periodic reviews foreseen within the grant agreement, then such an update needs to be made in time for the final review at the latest.</li><li>Furthermore, the consortium can define a timetable for review in the DMP itself.</li></ul><p><strong>Periodic reporting</strong></p><p>For general information on periodic reporting please check the following sections of the online manual</p><ul><li>how to fill in <a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports/periodic-reports_en.htm#dissem'>reporting tables for publications, deliverables</a> and</li><li><a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports_en.htm#continuous'>process for continuous reporting</a> in the grant management system of the Funding &amp; Tenders Portal.</li></ul>"
+
+#secciones
+msgid "In general terms, your research data should be 'FAIR' that is findable, accessible, interoperable and re-usable. These principles precede implementation choices and do not necessarily suggest any specific technology, standard or implementation-solution."
+msgstr "In general terms, your research data should be 'FAIR' that is findable, accessible, interoperable and re-usable. These principles precede implementation choices and do not necessarily suggest any specific technology, standard or implementation-solution."
+
+msgid "1. Data summary"
+msgstr "1. Data summary"
+
+msgid "2. FAIR data"
+msgstr "2. FAIR data"
+
+msgid "3. Allocation of resources"
+msgstr "3. Allocation of resources"
+
+msgid "4. Data security"
+msgstr "4. Data security"
+
+msgid "5. Ethical aspects"
+msgstr "5. Ethical aspects"
+
+msgid "6. Other"
+msgstr "6. Other"
+
+msgid "2.1 Making data findable, including provisions for metadata [FAIR data]"
+msgstr "2.1 Making data findable, including provisions for metadata [FAIR data]"
+
+msgid "2.2 Making data openly accessible [FAIR data]"
+msgstr "2.2 Making data openly accessible [FAIR data]"
+
+msgid "2.3 Making data interoperable [FAIR data]"
+msgstr "2.3 Making data interoperable [FAIR data]"
+
+msgid "2.4 Increase data re-use (through clarifying licenses) [FAIR data] "
+msgstr "2.4 Increase data re-use (through clarifying licenses) [FAIR data] "
+
+msgid "State the purpose of the data collection/generation"
+msgstr "State the purpose of the data collection/generation"
+
+#questions
+msgid "<p>Making data findable, including provisions for metadata:</p> <ul class='bullet'> <li>Outline the discoverability of data (metadata provision)</li> <li>Outline the identifiability of data and refer to standard identification mechanism. Do you make use of persistent and unique identifiers such as Digital Object Identifiers?</li> <li>Outline naming conventions used</li> <li>Outline the approach towards search keyword</li> <li>Outline the approach for clear versioning</li> <li>Specify standards for metadata creation (if any). If there are no standards in your discipline describe what metadata will be created and how</li> </ul>"
+msgstr "<p>Making data findable, including provisions for metadata:</p> <ul class='bullet'> <li>Outline the discoverability of data (metadata provision)</li> <li>Outline the identifiability of data and refer to standard identification mechanism. Do you make use of persistent and unique identifiers such as Digital Object Identifiers?</li> <li>Outline naming conventions used</li> <li>Outline the approach towards search keyword</li> <li>Outline the approach for clear versioning</li> <li>Specify standards for metadata creation (if any). If there are no standards in your discipline describe what metadata will be created and how</li> </ul>"
+
+msgid "<p>Making data openly accessible:</p> <ul class='bullet'> <li>Specify which data will be made openly available. If some data is kept closed provide rationale for doing so</li> <li>Specify how the data will be made available</li> <li>Specify what methods or software tools are needed to access the data. Is documentation about the software needed to access the data included? Is it possible to include the relevant software (e.g. in open source code)?</li> <li>Specify where the data and associated metadata, documentation and code are deposited</li> <li>Specify how access will be provided in case there are any restrictions</li> </ul>"
+msgstr "<p>Making data openly accessible:</p> <ul class='bullet'> <li>Specify which data will be made openly available. If some data is kept closed provide rationale for doing so</li> <li>Specify how the data will be made available</li> <li>Specify what methods or software tools are needed to access the data. Is documentation about the software needed to access the data included? Is it possible to include the relevant software (e.g. in open source code)?</li> <li>Specify where the data and associated metadata, documentation and code are deposited</li> <li>Specify how access will be provided in case there are any restrictions</li> </ul>"
+
+
+msgid "<p>Making data interoperable:</p> <ul class='bullet'> <li>Assess the interoperability of your data. Specify what data and metadata vocabularies, standards or methodologies you will follow to facilitate interoperability.</li> <li>Specify whether you will be using standard vocabulary for all data types present in your data set, to allow inter-disciplinary interoperability. If not, will you provide mapping to more commonly used ontologies?</li> </ul>"
+msgstr "<p>Making data interoperable:</p> <ul class='bullet'> <li>Assess the interoperability of your data. Specify what data and metadata vocabularies, standards or methodologies you will follow to facilitate interoperability.</li> <li>Specify whether you will be using standard vocabulary for all data types present in your data set, to allow inter-disciplinary interoperability. If not, will you provide mapping to more commonly used ontologies?</li> </ul>"
+
+msgid "<p>Increase data re-use (through clarifying licenses):</p> <ul class='bullet'> <li>Specify how the data will be licenced to permit the widest reuse possible</li> <li>Specify when the data will be made available for re-use. If applicable, specify why and for what period a data embargo is needed</li> <li>Specify whether the data produced and/or used in the project is useable by third parties, in particular after the end of the project? If the re-use of some data is restricted, explain why</li> <li>Describe data quality assurance processes</li> <li>Specify the length of time for which the data will remain re-usable</li> </ul>"
+msgstr "<p>Increase data re-use (through clarifying licenses):</p> <ul class='bullet'> <li>Specify how the data will be licenced to permit the widest reuse possible</li> <li>Specify when the data will be made available for re-use. If applicable, specify why and for what period a data embargo is needed</li> <li>Specify whether the data produced and/or used in the project is useable by third parties, in particular after the end of the project? If the re-use of some data is restricted, explain why</li> <li>Describe data quality assurance processes</li> <li>Specify the length of time for which the data will remain re-usable</li> </ul>"
+
+msgid "<p>Explain the allocation of resources, addressing the following issues:</p> <ul class='bullet'> <li>Estimate the costs for making your data FAIR. Describe how you intend to cover these costs</li> <li>Clearly identify responsibilities for data management in your project</li> <li>Describe costs and potential value of long term preservation</li> </ul>"
+msgstr "<p>Explain the allocation of resources, addressing the following issues:</p> <ul class='bullet'> <li>Estimate the costs for making your data FAIR. Describe how you intend to cover these costs</li> <li>Clearly identify responsibilities for data management in your project</li> <li>Describe costs and potential value of long term preservation</li> </ul>"
+
+
+msgid "Address data recovery as well as secure storage and transfer of sensitive data"
+msgstr "Address data recovery as well as secure storage and transfer of sensitive data"
+
+msgid "To be covered in the context of the ethics review, ethics section of DoA and ethics deliverables. Include references and related technical aspects if not covered by the former"
+msgstr "To be covered in the context of the ethics review, ethics section of DoA and ethics deliverables. Include references and related technical aspects if not covered by the former"
+
+msgid "Refer to other national/funder/sectorial/departmental procedures for data management that you are using (if any)"
+msgstr "Refer to other national/funder/sectorial/departmental procedures for data management that you are using (if any)"
+
+msgid "State the purpose of the data collection/generation"
+msgstr "State the purpose of the data collection/generation"
+
+msgid "Explain the relation to the objectives of the project"
+msgstr "Explain the relation to the objectives of the project"
+
+msgid "Specify the types and formats of data generated/collected"
+msgstr "Specify the types and formats of data generated/collected"
+
+msgid "Specify if existing data is being re-used (if any)"
+msgstr "Specify if existing data is being re-used (if any)"
+
+msgid "Specify the origin of the data"
+msgstr "Specify the origin of the data"
+
+msgid "State the expected size of the data (if known)"
+msgstr "State the expected size of the data (if known)"
+
+msgid "Outline the data utility: to whom will it be useful"
+msgstr "Outline the data utility: to whom will it be useful"
+
+msgid "Outline the discoverability of data (metadata provision)"
+msgstr "Outline the discoverability of data (metadata provision)"
+
+msgid "Outline the identifiability of data and refer to standard identification mechanism. Do you make use of persistent and unique identifiers such as Digital Object Identifiers?"
+msgstr "Outline the identifiability of data and refer to standard identification mechanism. Do you make use of persistent and unique identifiers such as Digital Object Identifiers?"
+
+msgid "Outline naming conventions used"
+msgstr "Outline naming conventions used"
+
+msgid "Outline the approach towards search keyword"
+msgstr "Outline the approach towards search keyword"
+
+msgid "Outline the approach for clear versioning"
+msgstr "Outline the approach for clear versioning"
+
+msgid "Specify standards for metadata creation (if any)"
+msgstr "Specify standards for metadata creation (if any)"
+
+msgid "Specify which data will be made openly available"
+msgstr "Specify which data will be made openly available"
+
+msgid "Specify how the data will be made available (e.g. by deposition in a repository)"
+msgstr "Specify how the data will be made available (e.g. by deposition in a repository)"
+
+msgid "Specify what methods or software tools are needed to access the data. Is documentation about the software needed to access the data included? Is it possible to include the relevant software (e.g. in open source code)?"
+msgstr "Specify what methods or software tools are needed to access the data. Is documentation about the software needed to access the data included? Is it possible to include the relevant software (e.g. in open source code)?"
+
+msgid "Specify where the data and associated metadata, documentation and code are deposited"
+msgstr "Specify where the data and associated metadata, documentation and code are deposited"
+
+msgid "Specify how access will be provided in case there are any restrictions"
+msgstr "Specify how access will be provided in case there are any restrictions"
+
+msgid "Have you explored appropriate arrangements with the identified repository?"
+msgstr "Have you explored appropriate arrangements with the identified repository?"
+
+msgid "If there are restrictions on use, how will access be provided?"
+msgstr "If there are restrictions on use, how will access be provided?"
+
+msgid "Is there a need for a data access committee?"
+msgstr "Is there a need for a data access committee?"
+
+msgid "Are there well described conditions for access (i.e. a machine readable license)?"
+msgstr "Are there well described conditions for access (i.e. a machine readable license)?"
+
+msgid "How will the identity of the person accessing the data be ascertained?"
+msgstr "How will the identity of the person accessing the data be ascertained?"
+
+msgid "Specify whether you will be using standard vocabulary for all data types present in your data set, to allow inter-disciplinary interoperability. If not, will you provide mapping to more commonly used ontologies?"
+msgstr "Specify whether you will be using standard vocabulary for all data types present in your data set, to allow inter-disciplinary interoperability. If not, will you provide mapping to more commonly used ontologies?"
+
+msgid "Specify how the data will be licenced to permit the widest reuse possible"
+msgstr "Specify how the data will be licenced to permit the widest reuse possible"
+
+msgid "Specify when the data will be made available for re-use"
+msgstr "Specify when the data will be made available for re-use"
+
+msgid "Specify whether the data produced and/or used in the project is useable by third parties, in particular after the end of the project"
+msgstr "Specify whether the data produced and/or used in the project is useable by third parties, in particular after the end of the project"
+
+msgid "Describe data quality assurance processes"
+msgstr "Describe data quality assurance processes"
+
+msgid "Specify the length of time for which the data will remain re-usable"
+msgstr "Specify the length of time for which the data will remain re-usable"
+
+msgid "Estimate the costs for making your data FAIR. Describe how you intend to cover these costs"
+msgstr "Estimate the costs for making your data FAIR. Describe how you intend to cover these costs"
+
+msgid "Clearly identify responsibilities for data management in your project"
+msgstr "Clearly identify responsibilities for data management in your project"
+
+msgid "Describe costs and potential value of long term preservation"
+msgstr "Describe costs and potential value of long term preservation"
+
+#annotations
+msgid "In case metadata standards do not exist in your discipline, please outline what type of metadata will be created and how"
+msgstr "In case metadata standards do not exist in your discipline, please outline what type of metadata will be created and how"
+
+msgid "<ul> <li>If certain datasets cannot be shared (or need to be shared under restrictions), explain why, clearly separating legal and contractual reasons from voluntary restrictions.</li> <li>Note that in multi-beneficiary projects it is also possible for specific beneficiaries to keep their data closed if relevant provisions are made in the consortium agreement and are in line with the reasons for opting out.</li> </ul>"
+msgstr "<ul> <li>If certain datasets cannot be shared (or need to be shared under restrictions), explain why, clearly separating legal and contractual reasons from voluntary restrictions.</li> <li>Note that in multi-beneficiary projects it is also possible for specific beneficiaries to keep their data closed if relevant provisions are made in the consortium agreement and are in line with the reasons for opting out.</li> </ul>"
+
+msgid "Preference should be given to certified repositories which support open access where possible"
+msgstr "Preference should be given to certified repositories which support open access where possible"
+
+msgid "If the re-use of some data is restricted, explain why"
+msgstr "If the re-use of some data is restricted, explain why"
+
+msgid "If an embargo is sought to give time to publish or seek patents, specify why and how long this will apply, bearing in mind that research data should be made available as soon as possible"
+msgstr "If an embargo is sought to give time to publish or seek patents, specify why and how long this will apply, bearing in mind that research data should be made available as soon as possible"
+
+msgid "How will these be covered? Note that costs related to open access to research data are eligible as part of the Horizon 2020 grant (if compliant with the Grant Agreement conditions)"
+msgstr "How will these be covered? Note that costs related to open access to research data are eligible as part of the Horizon 2020 grant (if compliant with the Grant Agreement conditions)"
+
+msgid "Also who decides and how what data will be kept and for how long "
+msgstr "Also who decides and how what data will be kept and for how long "
+
+msgid "Also indicated if the data is safely stored in certified repositories for long term preservation and curation"
+msgstr "Also indicated if the data is safely stored in certified repositories for long term preservation and curation"

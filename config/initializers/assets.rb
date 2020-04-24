@@ -15,7 +15,7 @@ if Rails.env.staging? or Rails.env.production?
   Rails.application.config.sass.inline_source_maps = false
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  Rails.application.config.assets.compile = false
+  Rails.application.config.assets.compile = true
 
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.

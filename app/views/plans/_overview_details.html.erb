@@ -1,16 +1,19 @@
 <div class="row">
   <div class="col-xs-12">
-    <h2><%= plan.template.title %></h2>
+    <!-- Madroño template translation -->
+    <h2><%= _(plan.template.title) %></h2>
   </div>
 </div>
 <div class="row">
   <div class="col-xs-12">
     <p>
-      <%= _('This plan is based on the "%{template_title}" template provided by %{org_name}.') %{ :template_title => plan.template.title, :org_name => plan.template.org.name } %>
+    <!-- Madroño template translation (plan.template.title) -->
+      <%= _('This plan is based on the "%{template_title}" template provided by %{org_name}.') %{ :template_title => _(plan.template.title), :org_name => plan.template.org.name } %>
     </p>
     <p>
       <div class="display-readonly-textarea-content">
-        <%= sanitize(plan.template.description) %>
+        <!-- Madroño template translation -->
+        <%= _(sanitize(plan.template.description)) %>
       </div>
     </p>
     <p>
@@ -39,8 +42,9 @@
               <div class="panel-heading" role="tab" id="plan-overview-heading-<%= p.id %>">
                 <div class="panel-title">
                   <div class="pull-left">
+                    <!-- Madroño template translation:p.title -->
                     <%= _("%{phase_title} (%{sections_size} %{sections}, %{questions_size} %{questions})") % {
-                      :phase_title => p.title, :sections_size => p.sections.size, :sections => n_('section', 'sections', p.sections.size),
+                      :phase_title => _(p.title), :sections_size => p.sections.size, :sections => n_('section', 'sections', p.sections.size),
                       :questions_size => questions_size,
                       :questions => n_('question', 'questions', questions_size) } %>
                   </div>

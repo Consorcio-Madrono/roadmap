@@ -9,7 +9,8 @@
 %>
 <div class="form-group allow-break-words">
     <div class="display-readonly-textarea-content">
-      <%= f.label(:text, sanitize(question.text), class: 'control-label') %>
+    <!-- Madroño. Translate templates. question.text -->
+    <%= f.label(:text, _(sanitize(question.text)), class: 'control-label') %>
     </div>
     <% if locking || readonly %>
       <div class="display-readonly-textarea-content">

@@ -17,7 +17,7 @@ else
   end
 
   def available_locales
-    Rails.application.config.i18n.available_locales = LocaleSet.new(["en-GB", "en"])
+    Rails.application.config.i18n.available_locales = LocaleSet.new(["en-GB", "en", "es", "fr"])
   end
 end
 

@@ -15,7 +15,8 @@
                                 class: "org-logo",
                                 title: current_user.org.name) %>
         <% else %>
-          <p id="banner-org-name" class="fontsize-h4"><%= current_user.org.name %></p>
+          <!-- Madroño: Template translations -->
+          <p id="banner-org-name" class="fontsize-h4"><%= _(current_user.org.name) %></p>
         <% end %>
       <% end %>
     </div>

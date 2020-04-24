@@ -17,7 +17,8 @@
         <% if q_format.checkbox? || q_format.multiselectbox? %>
           <% if !options.nil? %>
             <fieldset class="choices">
-              <label class="text_colour"><%= sanitize question.text %></label>
+              <!-- Madroño. Translate templates. question.text -->
+              <label class="text_colour"><%= _(sanitize question.text) %></label>
               <ol class="choices-group">
                 <% options.each do |op|%>
                   <li class="choice">
@@ -34,7 +35,8 @@
         <% elsif q_format.radiobuttons? %>
           <% if !options.nil?  %>
             <fieldset class="choices">
-              <label class="text_colour"><%= sanitize question.text %></label>
+              <!-- Madroño. Translate templates. question.text -->
+              <label class="text_colour"><%= _(sanitize question.text) %></label>
               <ol class="choices-group">
                 <% options.each do |op|%>
                   <li class="choice">
@@ -51,7 +53,8 @@
         <% elsif q_format.dropdown? %>
           <% if !options.nil? %>
             <label class="text_colour">
-              <%= sanitize question.text %>
+              <!-- Madroño. Translate templates. question.text -->
+              <%= _(sanitize question.text) %>
             </label>
             <select>
               <% options.each do |op|%>
@@ -79,7 +82,8 @@
         <div class="clear"></div>
         <textarea rows="4" style="width: 97%;"><%= question.default_value %></textarea>
       <% else %>
-        <label class="text_colour"><%= sanitize question.text %></label>
+        <!-- Madroño. Translate templates. question.text -->
+        <label class="text_colour"><%= _(sanitize question.text) %></label>
         <!--Suggested answer area-->
         <% annotations = question.annotations.find_by(org_id: current_user.org_id) %>
         <% if !annotations.blank? %>
