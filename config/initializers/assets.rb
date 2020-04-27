@@ -1,6 +1,8 @@
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
 Rails.application.config.assets.precompile += %w[
+  bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss,
+  bootstrap-sass/assets/stylesheets/bootstrap/*,
   tinymce/lightgray/skin.min.css,
   blocks/_tinymce_content.scss
  ]

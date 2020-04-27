@@ -1,0 +1,29 @@
+.main-nav #app-navbar {
+	background: #bc0f3a;
+}
+.main-nav .navbar-inverse .navbar-nav li:hover, .main-nav .navbar-inverse .navbar-nav li:hover {
+	background-color: #a4052d;
+}
+.main-nav .navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+.main-nav .app-logo {
+	padding:0;
+	height: auto;
+}
+div a:hover,a:focus {
+	color: #a4052d;
+	border:none;
+	outline:0;
+	border:0px;
+	border:none;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+	
+div a {
+	color: #bc0f3a;
+}
+	
