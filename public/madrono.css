@@ -1,7 +1,7 @@
 .main-nav #app-navbar {
 	background: #bc0f3a;
 }
-.main-nav .navbar-inverse .navbar-nav li:hover, .main-nav .navbar-inverse .navbar-nav li:hover {
+.main-nav .navbar-inverse .navbar-nav li:hover, .main-nav .navbar-inverse .navbar-nav li:focus {
 	background-color: #a4052d;
 }
 .main-nav .navbar-inverse .navbar-nav > li > a {
@@ -11,19 +11,15 @@
 	padding:0;
 	height: auto;
 }
-div a:hover,a:focus {
+div a:hover,div a:focus {
 	color: #a4052d;
 	border:none;
-	outline:0;
-	border:0px;
-	border:none;
-  box-sizing: border-box;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
 }
 	
 div a {
 	color: #bc0f3a;
 }
-	
+
+.btn-link:hover, .btn-link:focus {
+	color: #a4052d;
+}

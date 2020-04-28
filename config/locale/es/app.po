@@ -38,7 +38,7 @@ msgid " has been removed by "
 msgstr " ha sido eliminado por "
 
 msgid " in the project. You can also report bugs and request new features via "
-msgstr " en el proyecto. Puede reportar errores y solicitar nuevas funcionalidades "
+msgstr " en el proyecto. Puede reportar errores y solicitar nuevas funcionalidades mediante las"
 
 msgid "#{text}"
 msgstr "#{text}"
@@ -49,8 +49,8 @@ msgstr "%{affiliation}"
 msgid "%{application_name}"
 msgstr "%{application_name}"
 
-msgid "%{application_name} is provided by the %{organisation_name}.<br /> You can find out more about us on our <a href=\"%{organisation_url}\" target=\"_blank\">website <em class=\"sr-only\">(new window)</em></a>. If you would like to contact us about %{application_name}, please fill out the form below."
-msgstr "%{application_name} es proporcionado por %organisation_name}.<br /> Puede encontrar más información en <a href=\"%{organisation_url}\" target=\"_blank\">InvestigaM<em class=\"sr-only\"></em></a>. Si desea contactarnos %{application_name}, por favor, rellene el siguiente formulario."
+msgid "%{application_name} is provided by the %{organisation_name}.<br /> You can find out more about us on our <a href=\"%{organisation_url}\" class=\"has-new-window-popup-info\" target=\"_blank\">website <em class=\"sr-only\">(new window)</em><span class=\"new-window-popup-info\">%{open_in_new_window_text}</span></a>. If you would like to contact us about %{application_name}, please fill out the form below."
+msgstr "%{application_name} es una herramienta que ofrece el %{organisation_name}.<br /> Puede encontrar más información en <a href=\"http://www.consorciomadrono.es/investigam\" class=\"has-new-window-popup-info\" target=\"_blank\">InvestigaM<em class=\"sr-only\">(nueva ventana)</em><span class=\"new-window-popup-info\">%{open_in_new_window_text}</span></a>. Si desea más información sobre %{application_name} puede rellenar el siguiente formulario."
 
 #msgid "%{application_name} is provided by the %{organisation_name}.<br /> You can find out more about us on our <a href=\"%{organisation_url}\" target=\"_blank\">website</a>. If you would like to contact us about %{application_name}, please fill out the form below."
 #msgstr "DMPonline"
@@ -143,7 +143,7 @@ msgid "(CDL) are consortia supported by the University of Edinburgh and the Univ
 msgstr "(CDL) son consorcios respaldados por la Universidad de Edimburgo y la Universidad de California, respectivamente. Nuestro público objetivo es la comunidad de investigadores. Ofrecemos servicios al sector de educación superior del Reino Unido, EE. UU. E internacional."
 
 msgid "(CDL-US) are now established in our national contexts as the resource for researchers seeking guidance in creating DMPs. We have worked together from the outset to share experiences, but with the explosion of interest in both of our tools across the globe we formalized our partnership to co-develop and maintain a single open-source platform for DMPs. By working together we can extend our reach, keep costs down, and move best practices forward, allowing us to participate in a truly global open science ecosystem."
-msgstr "(CDL-US) ahora están establecidos en nuestros contextos nacionales como el recurso para los investigadores que buscan orientación en la creación de Planes de Gestión de Datos. Hemos trabajado juntos desde el principio para compartir experiencias, pero con la explosión de interés en nuestras dos herramientas en todo el mundo, formalizamos nuestra asociación para desarrollar conjuntamente y mantener una única plataforma de código abierto para la Gestión de datos de investigación. Al trabajar juntos podemos extender nuestro alcance, mantener bajos los costos y avanzar las mejores prácticas, lo que nos permite participar en un ecosistema de ciencia abierta verdaderamente global."
+msgstr "(CDL-US) ahora están establecidos en sus contextos nacionales como el recurso para los investigadores que buscan orientación en la creación de Planes de Gestión de Datos. Desde el principio trabajaron juntos para compartir experiencias, pero con la explosión de interés en sus dos herramientas en todo el mundo, formalizaron una asociación para desarrollar conjuntamente y mantener una única plataforma de código abierto para la gestión de datos de investigación. Al trabajar juntos han extendido el alcance de la herramienta, mantenido bajos los costes y avanzado usando mejores prácticas, lo que permite participar en un ecosistema de ciencia abierta verdaderamente global."
 
 msgid "(if available)"
 msgstr "(si está disponible)"
@@ -637,7 +637,7 @@ msgstr "Plantillas personalizables"
 #msgstr "Fase"
 
 msgid "DMP Background"
-msgstr "Contexto PGD"
+msgstr "Contexto de los PGD"
 
 msgid "DMP Templates"
 msgstr "Plantillas PGD"
@@ -913,7 +913,7 @@ msgid "Getting started:"
 msgstr "Comenzando:"
 
 msgid "GitHub Issues"
-msgstr "Aspectos de GitHub"
+msgstr "incidencias de GitHub"
 
 msgid "Github"
 msgstr "GitHub"
@@ -1018,10 +1018,10 @@ msgid "If you do have a need to provide guidance for specific funders that would
 msgstr "Si necesita proporcionar orientación para financiadores específicos que no serían útiles para un público más amplio (por ejemplo, si tiene instrucciones específicas para los solicitantes de BBSRC, por ejemplo), puede hacerlo agregando orientación a una pregunta específica cuando edite su plantilla "
 
 msgid "If you do not have a %{application_name} account, click on"
-msgstr "Si no tiene una cuenta %{application_name}, haga click"
+msgstr "Si no tiene una cuenta en %{application_name}, haga click en "
 
 msgid "If you have an account please sign in and start creating or editing your DMP."
-msgstr "Si no tiene una cuenta por favor registrese para empresa a crear y editar si PGD."
+msgstr "Si tiene una cuenta puede ingresar en el sistema y comenzar a crear y editar sus PGDs."
 
 msgid "If you have any questions or need help, please contact us at %{helpdesk_email} or visit %{contact_us}"
 msgstr "Si tiene alguna pregunta o necesita ayuda, por favor contacte con nosotros en %{helpdesk_email} o visite %{contact_us}"
@@ -1039,7 +1039,7 @@ msgid "If you would like to modify one of the templates below, you must first ch
 msgstr "Si desea modificar una de las plantillas a continuación, primero debe cambiar la afiliación de su organización."
 
 msgid "Information about you: how we use it and with whom we share it"
-msgstr "Información sobre usted: cómo la usamos y con quién la compartimosInformación sobre usted: cómo la usamos y con quién la compartimos"
+msgstr "Información sobre usted: cómo la usamos y con quién la compartimos"
 
 msgid "Insert the email address of any collaborators you would like to invite to read or edit your plan. Set the level of permissions you would like to grant them via the radio buttons and click to 'Add collaborator.' Adjust permissions or remove collaborators at any time via the drop-down options."
 msgstr "Inserte la dirección de correo electrónico de cualquier colaborador que desee invitar a leer o editar su plan. Establezca el nivel de permisos que le gustaría otorgar a través de los botones de opción y haga clic en 'Agregar colaborador'. Ajuste los permisos o elimine colaboradores en cualquier momento a través de las opciones desplegables."
@@ -1390,7 +1390,7 @@ msgid "Organisations"
 msgstr "Organizaciones"
 
 msgid "Organisations can customise the tool to highlight local requirements, resources, and services. Organisational templates can be added to address local DMP requirements, and additional sections and questions can be included in funder templates. Users from participating organisations that configure the tool for single sign-on can log in with their own organisational accounts."
-msgstr "Las organizaciones pueden personalizar la herramienta para resaltar los requisitos, recursos y servicios locales. Se pueden agregar plantillas organizativas para abordar los requisitos locales de PGD, y se pueden incluir secciones y preguntas adicionales en las plantillas de financiadores. Los usuarios de organizaciones participantes que configuran la herramienta para la autenticación única pueden iniciar sesión con sus propias cuentas de organización "
+msgstr "Las organizaciones pueden personalizar la herramienta para resaltar los requisitos, recursos y servicios locales. Se pueden agregar plantillas organizativas para abordar los requisitos locales de los PGD, y se pueden incluir secciones y preguntas adicionales en las plantillas de financiadores."
 
 msgid "Organization logo"
 msgstr "Logotipo de la organización"
@@ -1578,7 +1578,7 @@ msgstr "Por favor, seleccione uno"
 
 
 msgid "Please visit the"
-msgstr "Por favor visite el"
+msgstr "Puede ver la "
 
 msgid "Please wait, Standards are loading"
 msgstr "Por favor espere, los estándares se están cargando"
@@ -1799,7 +1799,7 @@ msgid "Saving..."
 msgstr "Guardando..."
 
 msgid "Scholarly researchers today are increasingly required to engage in a range of data management activities to comply with organisational policies, or as a precondition for publication or grant funding. To aid researchers in creating effective Data Management Plans (DMPs), we have worked closely with funders and universities to develop an online application: DMPRoadmap. The tool provides detailed guidance and links to general and organisational resources and walks a researcher through the process of generating a comprehensive plan tailored to specific DMP requirements."
-msgstr "Los investigadores académicos de hoy en día están cada vez más obligados a participar en una variedad de actividades de gestión de datos para cumplir con las políticas de la organización, o como una condición previa para la publicación o la concesión de fondos. Para ayudar a los investigadores a crear planes de gestión de datos (PGD) efectivos, hemos trabajado estrechamente con financiadores y universidades para desarrollar esta aplicación. La herramienta proporciona orientación detallada y enlaces a recursos generales y organizacionales y guía al investigador a través del proceso de generar un plan integral adaptado a los requisitos específicos de PGD."
+msgstr "Los investigadores académicos de hoy en día tienen la necesidad de participar en una variedad de actividades de gestión de datos para cumplir con las políticas de su organización, o como una condición previa para la publicación o la concesión de fondos. Para ayudar a los investigadores a crear planes de gestión de datos (PGD) efectivos, las orgainzaciones UC3 y DCC han trabajado estrechamente con financiadores y universidades para desarrollar esta aplicación que el Consorcio Madroño ha adaptado a las necesidades de los investigadores epañoles. La herramienta proporciona orientación detallada, enlaces a recursos generales y organizacionales, además de guiar al investigador a través del proceso de generar un plan integral adaptado a los requisitos específicos de su PGD."
 
 msgid "Search"
 msgstr "Buscar"
@@ -2080,7 +2080,7 @@ msgid "The key %{key} does not have a valid set of object links"
 msgstr "La clave %{key} no tiene un conjunto válido de enlaces de objetos"
 
 msgid "The new platform will be separate from the services each of our teams runs on top of it. Our shared goal: provide a combined DMPRoadmap platform as a core infrastructure for DMPs. Future enhancements will focus on making DMPs machine actionable so please continue sharing your use cases."
-msgstr "La nueva plataforma estará separada de los servicios que cada uno de nuestros equipos ejecuta sobre ella. Nuestro objetivo compartido: proporcionar una plataforma combinada de DMPRoadmap como infraestructura central para los PGD. Las mejoras futuras se centrarán en hacer que la máquina de PGD sea accionable, así que continúe compartiendo sus casos de uso."
+msgstr "La nueva plataforma estará separada de los servicios que cada uno de sus equipos ejecuta sobre ella. El objetivo compartido es: proporcionar entre ambos DMPRoadmap, una plataforma central para la gestión de PGDs. Las mejoras futuras se centrarán en crear PGDs procesables por máquinas (machine actionable DMPs), así que continúe compartiendo sus casos de uso."
 
 #msgid "The password must be between 8 and 128 characters."
 #msgstr "Clave"
@@ -2443,7 +2443,7 @@ msgid "We found multiple DMP templates corresponding to your funder."
 msgstr "Encontramos múltiples plantillas PGD correspondientes a su financiador."
 
 msgid "We invite you to peruse the DMPRoadmap GitHub wiki to learn how to "
-msgstr "Te invitamos a leer la wiki DMPRoadmap GitHub para aprender cómo se hace"
+msgstr "Te invitamos a leer la wiki de DMPRoadmap en GitHub para aprender cómo "
 
 #msgid "We were unable to verify your account. Please use the following form to create a new account. You will be able to link your new account afterward."
 #msgstr ""
@@ -2795,8 +2795,8 @@ msgstr "generate_copy! requiere una organización destino"
 msgid "generate_version! requires a published template"
 msgstr "generate_copy! requiere una plantilla publicada"
 
-msgid "get involved<em class=\"sr-only\"> (new window)</em>"
-msgstr "participe <em class=\"sr-only\"> (nueva ventana)</em>"
+msgid "get involved<em class=\"sr-only\"> (new window)</em><span class=\"new-window-popup-info\">%{open_in_new_window_text}</span>"
+msgstr "participar <em class=\"sr-only\"> (nueva ventana)</em><span class=\"new-window-popup-info\">%{open_in_new_window_text}</span>"
 
 #msgid "guidance"
 #msgstr ""
@@ -2865,7 +2865,7 @@ msgid "organisational"
 msgstr "Organización"
 
 msgid "page for guidance."
-msgstr "página de orientación"
+msgstr "para más información"
 
 #msgid "password"
 #msgstr "Clave"
@@ -3014,43 +3014,16 @@ msgstr "users_joined"
 msgid "write and edit the plan in a collaborative manner."
 msgstr "escriba y edite el plan de modo colaborativo."
 
-# CONSORCIO MADROÑO. Templates translation
-msgid "Horizon 2020 DMP"
-msgstr "PGD Horizonte 2020"
 
-msgid "DMP for Horizon 2020 projects"
-msgstr "PGD para proyectos del Horizonte 2020"
+# ==============================================CONSORCIO MADROÑO NEW ENTRIES=====================================================
+msgid "Revisions"
+msgstr "Revisiones"
 
-msgid "Initial DMP"
-msgstr "PGD Inicial"
+msgid "Opens in new window"
+msgstr "Abrir en ventana nueva"
 
-msgid "1. Data summary"
-msgstr "1. Resumen de datos"
-
-msgid "State the purpose of the data collection/generation"
-msgstr "Indique el propósito de la recolección/generación de datos"
-
-
-
-# ==============================================TEMPLATES =====================================================
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the app package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: app 1.0.0\n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2018-10-19 11:10:55-0700\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-
+msgid "Opens in a new window"
+msgstr "Abrir en una ventana nueva"
 
 # CONSORCIO MADROÑO. Templates translation
 #orgs
