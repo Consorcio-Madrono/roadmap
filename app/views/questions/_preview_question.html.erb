@@ -18,6 +18,8 @@
           <% if !options.nil? %>
             <fieldset class="choices">
               <!-- Madroño. Translate templates. question.text -->
+              <p>****JUAN2****<%= _(question.text) %>****JUAN2****</p>
+              <p>****JUAN****<%= _(sanitize question.text) %>****JUAN****</p>
               <label class="text_colour"><%= _(sanitize question.text) %></label>
               <ol class="choices-group">
                 <% options.each do |op|%>
@@ -36,6 +38,8 @@
           <% if !options.nil?  %>
             <fieldset class="choices">
               <!-- Madroño. Translate templates. question.text -->
+              <p>****JUAN2****<%= _(question.text) %>****JUAN2****</p>
+              <p>****JUAN****<%= _(sanitize question.text) %>****JUAN****</p>
               <label class="text_colour"><%= _(sanitize question.text) %></label>
               <ol class="choices-group">
                 <% options.each do |op|%>
@@ -54,6 +58,8 @@
           <% if !options.nil? %>
             <label class="text_colour">
               <!-- Madroño. Translate templates. question.text -->
+              <p>****JUAN2****<%= _(question.text) %>****JUAN2****</p>
+              <p>****JUAN****<%= _(sanitize question.text) %>****JUAN****</p>
               <%= _(sanitize question.text) %>
             </label>
             <select>
@@ -83,6 +89,8 @@
         <textarea rows="4" style="width: 97%;"><%= question.default_value %></textarea>
       <% else %>
         <!-- Madroño. Translate templates. question.text -->
+              <p>****JUAN2****<%= _(question.text) %>****JUAN2****</p>
+              <p>****JUAN****<%= _(sanitize question.text) %>****JUAN****</p>
         <label class="text_colour"><%= _(sanitize question.text) %></label>
         <!--Suggested answer area-->
         <% annotations = question.annotations.find_by(org_id: current_user.org_id) %>

@@ -10,6 +10,8 @@
 <div class="form-group allow-break-words">
     <div class="display-readonly-textarea-content">
     <!-- Madroño. Translate templates. question.text -->
+    <p>****JUAN****<%= _(sanitize question.text) %>****JUAN****</p>
+    <p>****JUAN2****<%= _(question.text) %>****JUAN2****</p>
     <%= f.label(:text, _(sanitize(question.text)), class: 'control-label') %>
     </div>
     <% if locking || readonly %>

@@ -128,7 +128,7 @@ msgstr "%{tool_name}: Se ha añadido un nuevo comentario a %{plan_title}"
 #msgstr ""
 
 msgid "'Download' allows you to download your plan in various formats. This may be useful if you need to submit your plan as part of a grant application."
-msgstr "'Descarga' le permite descargar su plan en varios formatos. Puede ser útil si necesita entregar su plan como parte de un solicitud de subvención."
+msgstr "'Descarga' le permite descargar su plan en varios formatos. Puede ser útil si necesita entregar su plan como parte de una solicitud de subvención."
 
 msgid "'Plan Overview' tells you what template and guidance your plan is based on and gives you an overview to the questions that you will be asked."
 msgstr "'Descripción General del Plan' le indica la plantilla en la que se basa su plan y le da una desripción general de las preguntas que le harán."
@@ -137,7 +137,7 @@ msgid "'Project Details' includes basic administrative details."
 msgstr "'Detalles del proyecto' incluye detalles básicos administrativos"
 
 msgid "'Share' allows you to invite others to read or contribute to your plan."
-msgstr "'Compartir' le permite invitar a otros a leer o contribuir a su plan"
+msgstr "'Compartir' le permite invitar a otros a leer o contribuir a su plan."
 
 msgid "(CDL) are consortia supported by the University of Edinburgh and the University of California, respectively. Our primary constituency is the research community. We provide services to the UK, US and international higher education sector. "
 msgstr "(CDL) son consorcios respaldados por la Universidad de Edimburgo y la Universidad de California, respectivamente. Nuestro público objetivo es la comunidad de investigadores. Ofrecemos servicios al sector de educación superior del Reino Unido, EE. UU. E internacional."
@@ -526,7 +526,7 @@ msgid "Contact us"
 msgstr "Contacto"
 
 msgid "Copy"
-msgstr "Copia"
+msgstr "Copiar"
 
 msgid "Copy of %{template}"
 msgstr "Copia de %{template}"
@@ -723,6 +723,12 @@ msgstr "Descarga de uso global"
 msgid "Download plans"
 msgstr "Descargar planes"
 
+msgid "Download plans <em class=\"sr-only\">(new window)</em><span class=\"new-window-popup-info\">%{open_in_new_window_text}</span>"
+msgstr "Descargar planes <em class=\"sr-only\">(nueva ventana)</em><span class=\"new-window-popup-info\">%{open_in_new_window_text}</span>"
+
+msgid "Download plans <em class=\"sr-only\">(new window)</em>"
+msgstr "Descargar planes <em class=\"sr-only\">(nueva ventana)</em>"
+
 msgid "Download plans <em class=\"sr-only\">(new window)</span>"
 msgstr "Descargar planes <em class=\"sr-only\">(nueva ventana)</span>"
 
@@ -898,7 +904,7 @@ msgid "Format"
 msgstr "Formato"
 
 msgid "From here you can download your plan in various formats. This may be useful if you need to submit your plan as part of a grant application. Choose what format you would like to view/download your plan in and click to download. You can also adjust the formatting (font type, size and margins) for PDF files, which may be helpful if working to page limits.</p>"
-msgstr "Desde aquí puede descargar su plan en varios formatos. Esto puede ser útil si necesita enviar su plan como parte de una solicitud de subvención. Elija el formato en el que desea ver/descargar su plan y haga clic para descargarlo. Puede también ajustar el formato (tipo de fuente, tamaño y márgenes) para los archivos PDF, lo que puede ser útil si se trabaja con los límites de la página.</p>"
+msgstr "Desde aquí puede descargar su plan en varios formatos. Esto puede ser útil si necesita enviar su plan como parte de una solicitud de subvención. Elija el formato en el que desea ver/descargar su plan y haga clic para descargarlo. Puede también ajustar el formato (tipo de fuente, tamaño y márgenes) para los archivos PDF, lo que puede ser útil si se trabaja con los límites de la página."
 
 msgid "Funder"
 msgstr "Financiador"
@@ -949,7 +955,7 @@ msgid "Guidance group list"
 msgstr "Listado de grupos de orientación"
 
 msgid "Guidance is displayed in the right-hand panel. If you need more guidance or find there is too much, you can make adjustments on the ‘Project Details’ tab."
-msgstr "La guía se muestra en el panel de la derecha. Si necesita más información o encuentra que hay demasiada, puede hacer ajustes en la pestaña\" Detalles del proyecto \"."
+msgstr "La guía se muestra en el panel de la derecha. Si necesita más información o encuentra que hay demasiada, puede hacer ajustes en la pestaña \"Detalles del proyecto \"."
 
 msgid "Guidance list"
 msgstr "Listado de guías"
@@ -1608,10 +1614,10 @@ msgid "Private: restricted to me and my collaborators"
 msgstr "Privado: restringido a mí y a mis colaboradores"
 
 msgid "Private: restricted to me and people I invite."
-msgstr "Privado: restringido para mí y las personas que invito"
+msgstr "Privado: restringido para mí y las personas que invito."
 
 msgid "Private: restricted to you and your collaborators."
-msgstr "Privado: restringido a ti y a tus colaboradores"
+msgstr "Privado: restringido a ti y a tus colaboradores."
 
 msgid "Private: visible to me, specified collaborators and administrators at my organisation"
 msgstr "Privado: visible para mí, colaboradores y administradores específicos de mi organización"
@@ -1663,7 +1669,7 @@ msgid "Public: anyone can view on the web"
 msgstr "Público: cualquiera puede ver en la web"
 
 msgid "Public: anyone can view your plan in the Public DMPs list."
-msgstr "Público: cualquiera puede ver su plan en la lista de PGD públicos"
+msgstr "Público: cualquiera puede ver su plan en la lista de PGD públicos."
 
 msgid "Public: anyone can view."
 msgstr "Público: cualquiera puede ver."
@@ -1720,7 +1726,7 @@ msgid "Read only: can view and comment, but not make changes"
 msgstr "Solo lectura: puede ver y comentar, pero no hacer cambios"
 
 msgid "Reference"
-msgstr "Reference"
+msgstr "Referencia"
 
 msgid "Remember email"
 msgstr "Recordar correo"
@@ -1747,10 +1753,10 @@ msgid "Request Feedback"
 msgstr "Solicitar comentarios"
 
 msgid "Request expert feedback"
-msgstr "Request expert feedback"
+msgstr "Solicitar información de un experto"
 
 msgid "Request feedback"
-msgstr "Request feedback"
+msgstr "Solicitar información"
 
 msgid "Requestor"
 msgstr "Solicitante"
@@ -2206,7 +2212,7 @@ msgid "Title"
 msgstr "Título"
 
 msgid "To create a plan, click the 'Create plan' button from the 'My Dashboard' page or the top menu. Select options from the menus and tickboxes to determine what questions and guidance you should be presented with. Confirm your selection by clicking 'Create plan.'"
-msgstr "Para crear un plan, haga clic en el botón 'Crear plan' en la página 'Mi panel' o en el menú superior. Seleccione las opciones de los menús y casillas de verificación para determinar qué preguntas y orientación debe recibir. Confirme su selección haciendo clic en 'Crear plan' "
+msgstr "Para crear un plan haga clic en el botón 'Crear plan' en la página 'Mi panel' o en el menú superior. Seleccione las opciones de los menús y casillas de verificación para determinar qué preguntas y orientación debe recibir. Confirme su selección haciendo clic en 'Crear plan' "
 
 msgid "To help you write your plan, %{application_name} can show you guidance from a variety of organisations."
 msgstr "Para ayudarlo a escribir su plan, %{application_name} puede mostrarle orientación de una variedad de organizaciones."
@@ -2451,6 +2457,9 @@ msgstr "Te invitamos a leer la wiki de DMPRoadmap en GitHub para aprender cómo 
 msgid "We will hold the personal data you provided us for as long as you continue using the %{application_name} service. Your personal data can be removed from this service upon request to the %{application_name} team within a period of 30 days."
 msgstr "Conservaremos los datos personales que nos proporcionó mientras continúe utilizando el servicio %{application_name}. Sus datos personales se pueden eliminar de este servicio a solicitud del equipo %{application_name} dentro de un período de 30 días."
 
+msgid "Welcome to"
+msgstr "Bienvenido a"
+
 msgid "Welcome"
 msgstr "Bienvenido"
 
@@ -2473,22 +2482,26 @@ msgid "What research project are you planning?"
 msgstr "¿Qué proyecto de investigación está planeando?"
 
 msgid "When viewing any of the question tabs, you will see the different sections of your plan displayed. Click into these in turn to answer the questions. You can format your responses using the text editing buttons."
-msgstr "Al ver cualquiera de las pestañas de preguntas, verá las diferentes secciones de su plan que se muestran. Haga clic en estos para responder las preguntas. Puede formatear sus respuestas usando los botones de edición de texto."
+msgstr "Al ver cualquiera de las pestañas de preguntas, verá las diferentes secciones de su plan que se muestran. Haga click en estas secciones para responder las preguntas. Puede formatear sus respuestas usando los botones de edición de texto."
 
 msgid "When you create a new phase for your template, a version will automatically be created. Once you complete the form below you will be provided with options to create sections and questions."
 msgstr "Cuando crea una fase nueva para su plantilla, se creará automáticamente una versión. Una vez complete el siguiente formulario se le darán las opciones para crear secciones y preguntas."
 
 msgid "When you log in to DMPRoadmap you will be directed to the 'My Dashboard' page. From here you can edit, share, download, copy or remove any of your plans. You will also see plans that have been shared with you by others."
-msgstr "Cuando inicie sesión en DMPRoadmap, se lo dirigirá a la página 'Mi panel'. Desde aquí puede editar, compartir, descargar, copiar o eliminar cualquiera de sus planes. También verá planes que otros han compartido con usted."
+msgstr "Cuando inicie sesión en PGDonline será redirigido a la página 'Mi panel'. Desde aquí puede editar, compartir, descargar, copiar o eliminar cualquiera de sus planes. También verá los planes que otros han compartido con usted."
 
 msgid "Which DMP template would you like to use?"
 msgstr "¿Qué plantilla de PGD te gustaría usar?"
 
+msgid "<p>Provide a summary of the data addressing the following issues:</p><ul class=\"bullet\"><li>State the purpose of the data collection/generation</li><li>Explain the relation to the objectives of the project</li><li>Specify the types and formats of data generated/collected</li><li>Specify if existing data is being re-used (if any)</li><li>Specify the origin of the data</li><li>State the expected size of the data (if known)</li><li>Outline the data utility: to whom will it be useful</li></ul>"
+msgstr "<p>Exponga un resumen de los datos tratando los siguientes temas:</p><ul class=\"bullet\"><li>Propósito de la recolección/generación de datos</li><li>Explique la relación con los objetivos del proyecto</li><li>Indique los formatos y tipos de los datos generados/recolectados</li><li>Indique si se están reutilizando otros datos existentes</li><li>Indique el origen de los datos</li><li>Indique el tamaño esperado de los datos (si se conoce)</li><li>Indique la utilidad de los datos: cómo podrían ser usados</li></ul>"
+
+
 msgid "Write Plan"
-msgstr "Escribir plan"
+msgstr "Escribir el plan"
 
 msgid "Write plan"
-msgstr "Escribir plan"
+msgstr "Escribir el plan"
 
 msgid "Write your plan"
 msgstr "Escriba su plan"
@@ -3106,8 +3119,7 @@ msgid "<p>Increase data re-use (through clarifying licenses):</p> <ul class='bul
 msgstr "<p>Incrementar las posibilidades de reutilizar los datos (usando licencias claras:</p> <ul class='bullet'> <li>Espefifique que licencias se aplicaran a los datos para permitir la mayor reutilización</li> <li>Especifique cuando los datos estarán disponibles para su reutilización. Si es aplicable, especifique el periodo de embargo y su razón</li> <li>Especifique el tiempo que los datos serán reutilizables.</li> </ul>"
 
 msgid "<p>Explain the allocation of resources, addressing the following issues:</p> <ul class='bullet'> <li>Estimate the costs for making your data FAIR. Describe how you intend to cover these costs</li> <li>Clearly identify responsibilities for data management in your project</li> <li>Describe costs and potential value of long term preservation</li> </ul>"
-msgstr "<p>Explique la necesidasd de recursos, teniendo en cuenta lo siguiente:</p> <ul class='bullet'> <li>Estime el coste de hacer sus datos FAIR. Describa como piensa abordar ese coste</li> <li>Identifique con claridad las responsabilidades para la administración de los datos se su proyecto</li> <li>Describa el coste y valor potencial de la preservación a largo plazo"
-
+msgstr "<p>Explique la necesidasd de recursos, teniendo en cuenta lo siguiente:</p> <ul class='bullet'> <li>Estime el coste de hacer sus datos FAIR. Describa como piensa abordar ese coste</li> <li>Identifique con claridad las responsabilidades para la administración de los datos se su proyecto</li> <li>Describa el coste y valor potencial de la preservación a largo plazo</li> </ul>"
 
 msgid "Address data recovery as well as secure storage and transfer of sensitive data"
 msgstr "Aborde la recuperación de los datos así como el almacenamiento seguro de datos sensibles"
@@ -3219,7 +3231,7 @@ msgid "In case metadata standards do not exist in your discipline, please outlin
 msgstr "Si no hubiera estándares de metadatos en su disciplina, porfavor indique que tipo de metadatos se crearán y como"
 
 msgid "<ul> <li>If certain datasets cannot be shared (or need to be shared under restrictions), explain why, clearly separating legal and contractual reasons from voluntary restrictions.</li> <li>Note that in multi-beneficiary projects it is also possible for specific beneficiaries to keep their data closed if relevant provisions are made in the consortium agreement and are in line with the reasons for opting out.</li> </ul>"
-msgstr "<ul><li>Si algún tipo de datset no se pudiera compartir (o se tuviera que compartir con restricciones explique el porqué. Separe claramente la rasones legales y contractuales de las voluntarias.</li> <li>Tenga en cuenta que en proyectos con múltiples beneficiarios también es posibible que algunos de ellos mantengan sus datos cerrrados si se ha avisado de manera adecuada en el acuerdo del consorcio y entran dentro de las razones del 'oping out'"
+msgstr "<ul><li>Si algún tipo de datset no se pudiera compartir (o se tuviera que compartir con restricciones explique el porqué. Separe claramente la rasones legales y contractuales de las voluntarias.</li> <li>Tenga en cuenta que en proyectos con múltiples beneficiarios también es posibible que algunos de ellos mantengan sus datos cerrrados si se ha avisado de manera adecuada en el acuerdo del consorcio y entran dentro de las razones del 'oping out'</li></ul>"
 
 msgid "Preference should be given to certified repositories which support open access where possible"
 msgstr "La preferencia debería ser para resposiotios certificado con soporte para acceso abierto cuando fuera posible"
@@ -3234,7 +3246,7 @@ msgid "How will these be covered? Note that costs related to open access to rese
 msgstr "¿Cómo se cubrirán? Tenga en cuenta que los costes relacionados con el acceso abierto a los datos de invetigación pueden ser parte del la subvención del Horizonte 2020 (si cumplen las condiciones del Acuerdo de Subvención"
 
 msgid "Also who decides and how what data will be kept and for how long "
-msgstr "También quién decide y como que data se conservará y por cuanto timep"
+msgstr "También quién decide y como que data se conservará y por cuanto tiempo"
 
 msgid "Also indicated if the data is safely stored in certified repositories for long term preservation and curation"
 msgstr "También indique si los datos se almacenan de forma segura en repositorios certificados para su preservación y mantenimiento a largo plazo"
