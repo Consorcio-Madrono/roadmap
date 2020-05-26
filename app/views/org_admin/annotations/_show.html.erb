@@ -11,7 +11,8 @@
     <% if guidance.present? %>
       <dd>
         <div class="display-readonly-textarea-content">
-          <%= sanitize guidance.text %>
+          <!-- Madroño template translation -->
+          <%= sanitize _(guidance.text) %>
         </div>
       </dd>
     <% end %>

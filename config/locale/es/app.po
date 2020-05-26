@@ -107,7 +107,7 @@ msgid "%{phase_title} (%{sections_size} %{sections}, %{questions_size} %{questio
 msgstr "%{phase_title} (%{sections_size} %{sections}, %{questions_size} %{questions})"
 
 msgid "%{plan_owner} has been notified that you have finished providing feedback"
-msgstr "%{plan_owner} ha sido notificado de que ha terminado de proporcionar comentarios "
+msgstr "%{plan_owner} ha sido notificado de que ha terminado de proporcionar comentarios"
 
 #msgid "%{requestor} has requested feedback on a plan \"%{plan_name}.\" To add comments, please visit the 'Plans' page under the Admin menu in %{application_name} and open the plan."
 #msgstr "DMPonline"
@@ -140,7 +140,7 @@ msgid "'Share' allows you to invite others to read or contribute to your plan."
 msgstr "'Compartir' le permite invitar a otros a leer o contribuir a su plan."
 
 msgid "(CDL) are consortia supported by the University of Edinburgh and the University of California, respectively. Our primary constituency is the research community. We provide services to the UK, US and international higher education sector. "
-msgstr "(CDL) son consorcios respaldados por la Universidad de Edimburgo y la Universidad de California, respectivamente. Nuestro público objetivo es la comunidad de investigadores. Ofrecemos servicios al sector de educación superior del Reino Unido, EE. UU. E internacional."
+msgstr "(CDL) son consorcios respaldados por la Universidad de Edimburgo y la Universidad de California, respectivamente. Nuestro público objetivo es la comunidad de investigadores. Ofrecemos servicios al sector de educación superior del Reino Unido, EE.UU. e internacional."
 
 msgid "(CDL-US) are now established in our national contexts as the resource for researchers seeking guidance in creating DMPs. We have worked together from the outset to share experiences, but with the explosion of interest in both of our tools across the globe we formalized our partnership to co-develop and maintain a single open-source platform for DMPs. By working together we can extend our reach, keep costs down, and move best practices forward, allowing us to participate in a truly global open science ecosystem."
 msgstr "(CDL-US) ahora están establecidos en sus contextos nacionales como el recurso para los investigadores que buscan orientación en la creación de Planes de Gestión de Datos. Desde el principio trabajaron juntos para compartir experiencias, pero con la explosión de interés en sus dos herramientas en todo el mundo, formalizaron una asociación para desarrollar conjuntamente y mantener una única plataforma de código abierto para la gestión de datos de investigación. Al trabajar juntos han extendido el alcance de la herramienta, mantenido bajos los costes y avanzado usando mejores prácticas, lo que permite participar en un ecosistema de ciencia abierta verdaderamente global."
@@ -1423,7 +1423,7 @@ msgid "PDF <em class=\"sr-only\">(new window)</em>"
 msgstr "PDF  <em class=\"sr-only\">(nueva ventana)</em>"
 
 msgid "PDF formatting"
-msgstr "Dando formato al PDF"
+msgstr "Rormatear el PDF"
 
 msgid "Password"
 msgstr "Clave"
@@ -2185,7 +2185,7 @@ msgid "This plan is based on the"
 msgstr "Este plan se basa en el"
 
 msgid "This plan is based on the \"%{template_title}\" template provided by %{org_name}."
-msgstr "Este plan se basa en la plantilla '%{template_title}' proporcionada por% {org_name}."
+msgstr "Este plan se basa en la plantilla '%{template_title}' proporcionada por %{org_name}."
 
 msgid "This plan is based on the default template."
 msgstr "Este plan se basa en la plantilla predeterminada."
@@ -3038,6 +3038,15 @@ msgstr "Abrir en ventana nueva"
 msgid "Opens in a new window"
 msgstr "Abrir en una ventana nueva"
 
+msgid "There is no additional guidance for this template."
+msgstr "No hay guías adicionales para esta plantilla."
+
+msgid "Template version %{template_version}, published on %{published_date}"
+msgstr "Versión de la plantilla %{template_version}, publicada en %{published_date}"
+
+msgid "Download Plan <em class=\"sr-only\">(new window)</em><span class=\"new-window-popup-info\">%{open_in_new_window_text}</span>"
+msgstr "Descargar Plan <em class=\"sr-only\">(nueva ventana)</em><span class=\"new-window-popup-info\">%{open_in_new_window_text}</span>"
+
 # CONSORCIO MADROÑO. Templates translation
 #orgs
 msgid "European Commission (H2020)"
@@ -3055,19 +3064,25 @@ msgid "Initial DMP"
 msgstr "PGD inicial"
 
 
+msgid "Once a project has had its funding approved and has started, you <strong>must submit a first version of your DMP</strong> (as a deliverable) within the first 6 months of the project. The Commission provides a DMP template in annex, the use of which is recommended but voluntary"
+msgstr "Una vez un proyecto ha sido aprobado por la agencia de financiación y se ha iniciado, <strong>debe enviar la primera versión de su PGD</strong> en los primeros 6 meses del proyecto. La Comisión provee una plantilla en el aneño, cuyo uso es recomendado, pero voluntario"
+
 msgid "Once a project has had its funding approved and has started, you <strong>must submit a first version of your DMP</strong> (as a deliverable) within the first 6 months of the project"
-msgstr "Una vez un proyecto ha sido aprobado por la agencia de financiación y se ha iniciado, <strong>debe enviar la primera versión de su PGD</strong> en los primeros t meses del proyecto"
+msgstr "Una vez un proyecto ha sido aprobado por la agencia de financiación y se ha iniciado, <strong>debe enviar la primera versión de su PGD</strong> en los primeros 6 meses del proyecto"
 
 msgid "Detailed DMP" 
 msgstr "PGD detallado"
+
+msgid "Mid-term-Review DMP"
+msgstr "Revisión intermedia"
 
 msgid "Final review DMP" 
 msgstr "PGD final"
 
 msgid "<p>The DMP needs to be updated over the course of the project whenever significant changes arise, such as (but not limited to):</p><ul><li>new data</li><li>changes in consortium policies (e.g. new innovation potential, decision to file for a patent)</li><li>changes in consortium composition and external factors (e.g. new consortium members joining or old members leaving).</li></ul><p>The DMP should be updated as a minimum in time with the periodic evaluation/assessment of the project.</p><ul><li>If there are no other periodic reviews foreseen within the grant agreement, then such an update needs to be made in time for the final review at the latest.</li><li>Furthermore, the consortium can define a timetable for review in the DMP itself.</li></ul><p><strong>Periodic reporting</strong></p><p>For general information on periodic reporting please check the following sections of the online manual</p><ul><li>how to fill in <a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports/periodic-reports_en.htm#dissem'>reporting tables for publications, deliverables</a> and</li><li><a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports_en.htm#continuous'>process for continuous reporting</a> in the grant management system of the Funding &amp; Tenders Portal.</li></ul>"
-msgstr "<p>El PGD debe actualizarse durante el proyecto cada vez que haya cambios significativos, tales como (pero no limitados a):</p><ul><li>nuevos datos</li><li>cambios en las políticas del consorcio (Ej: nueva posible innovación, decisión de crear una patente)</li><li>cambios en la composición del consorcio o en factores externos (Ej: Nuevos miembros o retirada de miembros)</li></ul><p>El PGD se debería actualizar como mínimo con cada evaluación periódica del proyecto.</p><ul><li>Si no hubiera otras revisiones periódicas, entonces es necesario realizar una nueva para la revisión final por lo menos.</li><li>Además, el propio consorcio podría definir un calendario de reveisiones del PGD.</li></ul><p><strong>Revisiones periódicasg</strong></p><p>Para obtener información general sobre informaciones periódicas puede revisar las siguiente secciones del manual online</p><ul><li>como rellenar <a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports/periodic-reports_en.htm#dissem'>tablas de informes para publicaciones, entregagbles</a> y</li><li><a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports_en.htm#continuous'>proeceso para la información continua</a> en el systema de administración de subvenciones en el Portal Subvenciones y &amp; Publicaciones.</li></ul>"
+msgstr "<p>El PGD debe actualizarse durante el proyecto cada vez que haya cambios significativos, tales como (pero no limitados a):</p><ul><li>nuevos datos</li><li>cambios en las políticas del consorcio (Ej: nueva posible innovación, decisión de crear una patente)</li><li>cambios en la composición del consorcio o en factores externos (Ej: Nuevos miembros o retirada de miembros)</li></ul><p>El PGD se debería actualizar como mínimo con cada evaluación periódica del proyecto.</p><ul><li>Si no hubiera otras revisiones periódicas, entonces es necesario realizar una nueva para la revisión final por lo menos.</li><li>Además, el propio consorcio podría definir un calendario de reveisiones del PGD.</li></ul><p><strong>Revisiones periódicasg</strong></p><p>Para obtener información general sobre informaciones periódicas puede revisar las siguiente secciones del manual online</p><ul><li>como rellenar <a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports/periodic-reports_en.htm#dissem'>tablas de informes para publicaciones, entregagbles</a> y</li><li><a href='https://ec.europa.eu/research/participants/docs/h2020-funding-guide/grants/grant-management/reports_en.htm#continuous'>proceso para la información continua</a> en el systema de administración de subvenciones en el Portal Subvenciones y &amp; Publicaciones.</li></ul>"
 
-#secciones
+#sections
 msgid "In general terms, your research data should be 'FAIR' that is findable, accessible, interoperable and re-usable. These principles precede implementation choices and do not necessarily suggest any specific technology, standard or implementation-solution."
 msgstr "En términos generales, sus datos de investigación deberían de ser 'FAIR', es decir localizables, accesibles, interoperables y reutilizables. Estos principios afectan a opciones de implementación y no sugieren tecnologías, estándares o suluciones de implementación concretas"
 
@@ -3098,19 +3113,40 @@ msgstr "2.2 Crear datos accesibles en abierto [datos FAIR]"
 msgid "2.3 Making data interoperable [FAIR data]"
 msgstr "2.3 Crear datos interoperables [datos FAIR]"
 
-msgid "2.4 Increase data re-use (through clarifying licenses) [FAIR data] "
+msgid "2.4 Increase data re-use (through clarifying licenses) [FAIR data]"
 msgstr "2.4 Incrementar las posibilidades de reutilizar los datos (usando licencias claras) [datos FAIR]"
 
 msgid "State the purpose of the data collection/generation"
 msgstr "Indique el propósito de la recolección/generación de datos"
 
+msgid "For each data set specify the following:"
+msgstr "Para cada dataset, especifique lo siguiente"
+
+msgid "1. Scientific research data should be easily: Discoverable"
+msgstr "1. Los datos de investigaciones científicas, deben ser fácilmente localizables"
+
+msgid "2. Scientific research data should be easily: Accessible"
+msgstr "2. Los datos de investigaciones científicas, deben ser fácilmente accesibles"
+
+msgid "3. Scientific research data should be easily: Assessable and intelligible"
+msgstr "3. Los datos de investigaciones científicas, deben ser fácilmente medibles y comprensibles"
+
+msgid "4. Scientific research data should be easily: Usable beyond the original purpose for which it was collected"
+msgstr "4. Los datos de investigaciones científicas, deben ser fácilmente utilizables con otros propósitos distintos del que fueron recolectados"
+
+msgid "5. Scientific research data should be easily: Interoperable to specific quality standards"
+msgstr "5. Los datos de investigaciones científicas, deben ser fácilmente interoperables con estándares de calidad específicos"
+
+
 #questions
-msgid "<p>Making data findable, including provisions for metadata:</p> <ul class='bullet'> <li>Outline the discoverability of data (metadata provision)</li> <li>Outline the identifiability of data and refer to standard identification mechanism. Do you make use of persistent and unique identifiers such as Digital Object Identifiers?</li> <li>Outline naming conventions used</li> <li>Outline the approach towards search keyword</li> <li>Outline the approach for clear versioning</li> <li>Specify standards for metadata creation (if any). If there are no standards in your discipline describe what metadata will be created and how</li> </ul>"
+msgid "<p>Making data findable, including provisions for metadata:</p> <ul class=\"bullet\"> <li>Outline the discoverability of data (metadata provision)</li> <li>Outline the identifiability of data and refer to standard identification mechanism. Do you make use of persistent and unique identifiers such as Digital Object Identifiers?</li> <li>Outline naming conventions used</li> <li>Outline the approach towards search keyword</li> <li>Outline the approach for clear versioning</li> <li>Specify standards for metadata creation (if any). If there are no standards in your discipline describe what metadata will be created and how</li> </ul>"
 msgstr "<p>Creando datos localizables suministrando metadatos:</p> <ul class='bullet'> <li>Describa como localizar los datos (agreagando metadatos)</li> <li>Describa como identificar los datos e indique el mecanismo estándar de identificación. ¿Usa identificadores únicos y persistentes como los 'Digital Object Identifiers?'</li><li>Describa las convenciones usadas para la nomenclatura</li> <li>Indique cuales pueden ser las palabra clave para las búsquedas</li> <li>Indique como cree que se realizará el versionado</li><li>Especifique los estándares para la craeación de metadatos (si los hubiera). Si no hay estándares en su disciplina describa que metadatas se crearán y comow</li> </ul>"
 
 msgid "<p>Making data openly accessible:</p> <ul class='bullet'> <li>Specify which data will be made openly available. If some data is kept closed provide rationale for doing so</li> <li>Specify how the data will be made available</li> <li>Specify what methods or software tools are needed to access the data. Is documentation about the software needed to access the data included? Is it possible to include the relevant software (e.g. in open source code)?</li> <li>Specify where the data and associated metadata, documentation and code are deposited</li> <li>Specify how access will be provided in case there are any restrictions</li> </ul>"
-msgstr "<p>Creando datos accesibles en abierto:</p> <ul class='bullet'> <li>Especifique que datos estarán disponibles en abierto.Si algún dato no lo está justifique la razón</li> <li>Especifique como los datos serán accesibles</li> <li>Especifique que métodos o herramientas software se necesitan para acceder a los datos. ¿Se incluye la documentación del software necesario para acceder a los datos?. ¿Es posible incluir el sofwtare relevante (ej: código de acceso abierto)?</li> <li>Especifique donde se depositarán los datos, los metadatos asociados, la documentación y el software</li> <li>Especifique como se puede acceder a los datos si hay alguna restricción</li> </ul>"
+msgstr "<p>Creando datos accesibles en abierto:</p> <ul class='bullet'> <li>Especifique que datos estarán disponibles en abierto. Si algún dato no lo está justifique la razón</li> <li>Especifique como los datos serán accesibles</li> <li>Especifique que métodos o herramientas software se necesitan para acceder a los datos. ¿Se incluye la documentación del software necesario para acceder a los datos?. ¿Es posible incluir el sofwtare relevante (ej: código de acceso abierto)?</li> <li>Especifique donde se depositarán los datos, los metadatos asociados, la documentación y el software</li> <li>Especifique como se puede acceder a los datos si hay alguna restricción</li> </ul>"
 
+msgid "Assess the interoperability of your data. Specify what data and metadata vocabularies, standards or methodologies you will follow to facilitate interoperability"
+msgstr "Indique la interoperabilidad de sus datos. Especifique que datos, vocabularios de metadatos, estándares y metodologías seguirá para facilitar la interoperabilidad"
 
 msgid "<p>Making data interoperable:</p> <ul class='bullet'> <li>Assess the interoperability of your data. Specify what data and metadata vocabularies, standards or methodologies you will follow to facilitate interoperability.</li> <li>Specify whether you will be using standard vocabulary for all data types present in your data set, to allow inter-disciplinary interoperability. If not, will you provide mapping to more commonly used ontologies?</li> </ul>"
 msgstr "<p>Crear datos interoperables:</p> <ul class='bullet'> <li>Indique la interoperabilidad de sus datos. Especifique que datos, vocabularios de metadatos, estándares y metodologías seguirá para facilitar la interoperabilidad.</li> <li>Especificque si usted usará vocabularios estándares para todos los tipos de datos peresentes en su dataset para permitir interoperabilidad interdisciplinar. Si no es así, ¿proveerá mapeos para las ontologías más comunes?</li> </ul>"
@@ -3226,6 +3262,36 @@ msgstr "Identifique con claridad las responsabilidades para la administración d
 msgid "Describe costs and potential value of long term preservation"
 msgstr "Describa el coste y valor potencial de la preservación a largo plazo"
 
+msgid "Data set reference and name"
+msgstr "Nombre y referencia del dataset"
+
+msgid "Data set description"
+msgstr "Descripción del dataset"
+
+msgid "Standards and metadata"
+msgstr "Estándares y metadatos"
+
+msgid "Data sharing"
+msgstr "Datos compartidos"
+
+msgid "Archiving and preservation (including storage and backup)"
+msgstr "Archivo y preservación (incluyendo almacenamiento y copias de seguridad)"
+
+msgid "Are the data and associated software produced and/or used in the project discoverable (and readily located), identifiable by means of a standard identification mechanism (e.g. Digital Object Identifier)?"
+msgstr "¿Los datos y el software asociado producido y/o usado en el proyecto están localizables (y disponibles), e identificables por medio de un mecanismo estándar de identificación (ej: Digital Object Identifier)?"
+
+msgid "Are the data and associated software produced and/or used in the project accessible and in what modalities, scope, licenses?"
+msgstr "¿Los datos y el software asociado producido y/o usado en el proyecto son accesibles?. ¿En qué modalidades (ámbito, licencias, ...)?"
+
+msgid "Are the data and associated software produced and/or used in the project assessable for and intelligible to third parties in contexts such as scientific scrutiny and peer review?"
+msgstr "¿Los datos y el software asociado producido y/o usado en el proyecto son inteligibles por terceras partes en contextos similares a escrutinio científico y revisión por pares?"
+
+msgid "Are the data and associated software produced and/or used in the project useable by third parties even long time after the collection of the data?"
+msgstr "¿Los datos y el software producido y/o usado en el proyecto, son utilizables por terceras partes incluso mucho tiempo después de la recolección de los datos?"
+
+msgid "Are the data and associated software produced and/or used in the project interoperable allowing data exchange between researchers, institutions, organisations, countries, etc?"
+msgstr "¿Los datos y el software producido y/o usado en el proyecto, son interoperables permitiendo el intercambio de datos entre investigadores, instituciones, organizaciones, países, ....?"
+
 #annotations
 msgid "In case metadata standards do not exist in your discipline, please outline what type of metadata will be created and how"
 msgstr "Si no hubiera estándares de metadatos en su disciplina, porfavor indique que tipo de metadatos se crearán y como"
@@ -3245,8 +3311,154 @@ msgstr "Si hay algún embargo para dar tiempo a que se publiquen o busque patent
 msgid "How will these be covered? Note that costs related to open access to research data are eligible as part of the Horizon 2020 grant (if compliant with the Grant Agreement conditions)"
 msgstr "¿Cómo se cubrirán? Tenga en cuenta que los costes relacionados con el acceso abierto a los datos de invetigación pueden ser parte del la subvención del Horizonte 2020 (si cumplen las condiciones del Acuerdo de Subvención"
 
-msgid "Also who decides and how what data will be kept and for how long "
+msgid "Also who decides and how what data will be kept and for how long"
 msgstr "También quién decide y como que data se conservará y por cuanto tiempo"
 
 msgid "Also indicated if the data is safely stored in certified repositories for long term preservation and curation"
 msgstr "También indique si los datos se almacenan de forma segura en repositorios certificados para su preservación y mantenimiento a largo plazo"
+
+# guidances 
+msgid ""
+"● Give a summary of the data you will collect or create, noting the content, coverage and data type, e.g., tabular data, survey data, experimental measurements, models, software, audiovisual data, physical samples, etc.\n"
+"● Consider how your data could complement and integrate with existing data, or whether there are any existing data or methods that you could reuse.\n"
+"● If purchasing or reusing existing data, explain how issues such as copyright and IPR have been addressed. You should aim to minimise any restrictions on the reuse (and subsequent sharing) of third-party data."
+msgstr ""
+"● Give a summary of the data you will collect or create, noting the content, coverage and data type, e.g., tabular data, survey data, experimental measurements, models, software, audiovisual data, physical samples, etc.\n"
+"● Consider how your data could complement and integrate with existing data, or whether there are any existing data or methods that you could reuse.\n"
+"● If purchasing or reusing existing data, explain how issues such as copyright and IPR have been addressed. You should aim to minimise any restrictions on the reuse (and subsequent sharing) of third-party data."
+
+msgid ""
+"● Clearly note what format(s) your data will be in, e.g., plain text (.txt), comma-separated values (.csv), geo-referenced TIFF (.tif, .tfw).\n"
+"● Explain why you have chosen certain formats. Decisions may be based on staff expertise, a preference for open formats, the standards accepted by data centres or widespread usage within a given community.\n"
+"● Using standardised, interchangeable or open formats ensures the long-term usability of data; these are recommended for sharing and archiving.\n"
+"● See <a href='https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats' title='UK Data Service guidance on recommended formats'>UK Data Service guidance on recommended formats</a> or <a href='https://www.dataone.org/best-practices/document-and-store-data-using-stable-file-formats' title='DataONE Best Practices for file formats'>DataONE Best Practices for file formats</a>"
+msgstr ""
+"● Clearly note what format(s) your data will be in, e.g., plain text (.txt), comma-separated values (.csv), geo-referenced TIFF (.tif, .tfw).\n"
+"● Explain why you have chosen certain formats. Decisions may be based on staff expertise, a preference for open formats, the standards accepted by data centres or widespread usage within a given community.\n"
+"● Using standardised, interchangeable or open formats ensures the long-term usability of data; these are recommended for sharing and archiving.\n"
+"● See <a href='https://www.ukdataservice.ac.uk/manage-data/format/recommended-formats' title='UK Data Service guidance on recommended formats'>UK Data Service guidance on recommended formats</a> or <a href='https://www.dataone.org/best-practices/document-and-store-data-using-stable-file-formats' title='DataONE Best Practices for file formats'>DataONE Best Practices for file formats</a>"
+
+msgid ""
+"● Note what volume of data you will create in MB/GB/TB\n"
+"● Consider the implications of data volumes in terms of storage, access and preservation. Do you need to include additional costs?\n"
+"● Consider whether the scale of the data will pose challenges when sharing or transferring data between sites; if so, how will you address these challenges?"
+msgstr ""
+"● Note what volume of data you will create in MB/GB/TB\n"
+"● Consider the implications of data volumes in terms of storage, access and preservation. Do you need to include additional costs?\n"
+"● Consider whether the scale of the data will pose challenges when sharing or transferring data between sites; if so, how will you address these challenges?"
+
+msgid ""
+"● Outline how the data will be collected and processed. This should cover relevant standards or methods, quality assurance and data organisation.\n"
+"● Indicate how the data will be organised during the project, mentioning, e.g., naming conventions, version control and folder structures. Consistent, well-ordered research data will be easier to find, understand and reuse\n"
+"● Explain how the consistency and quality of data collection will be controlled and documented. This may include processes such as calibration, repeat samples or measurements, standardised data capture, data entry validation, peer review of data or representation with controlled vocabularies.\n"
+"● See the <a href='https://www.dataone.org/best-practices/quality' title='DataOne Best Practices for data quality'>DataOne Best Practices for data quality</a>"
+msgstr ""
+"● Outline how the data will be collected and processed. This should cover relevant standards or methods, quality assurance and data organisation.\n"
+"● Indicate how the data will be organised during the project, mentioning, e.g., naming conventions, version control and folder structures. Consistent, well-ordered research data will be easier to find, understand and reuse\n"
+"● Explain how the consistency and quality of data collection will be controlled and documented. This may include processes such as calibration, repeat samples or measurements, standardised data capture, data entry validation, peer review of data or representation with controlled vocabularies.\n"
+"● See the <a href='https://www.dataone.org/best-practices/quality' title='DataOne Best Practices for data quality'>DataOne Best Practices for data quality</a>"
+
+msgid ""
+"● What metadata will be provided to help others identify and discover the data?\n"
+"● Researchers are strongly encouraged to use community metadata standards where these are in place. The Research Data Alliance offers a <a href='http://rd-alliance.github.io/metadata-directory' title='Directory of Metadata Standards'>Directory of Metadata Standards</a>.\n"
+"● Consider what other documentation is needed to enable reuse. This may include information on the methodology used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data.\n"
+"● Consider how you will capture this information and where it will be recorded, e.g., in a database with links to each item, in a ‘readme’ text file, in file headers, etc."
+msgstr ""
+"● What metadata will be provided to help others identify and discover the data?\n"
+"● Researchers are strongly encouraged to use community metadata standards where these are in place. The Research Data Alliance offers a <a href='http://rd-alliance.github.io/metadata-directory' title='Directory of Metadata Standards'>Directory of Metadata Standards</a>.\n"
+"● Consider what other documentation is needed to enable reuse. This may include information on the methodology used to collect the data, analytical and procedural information, definitions of variables, units of measurement, any assumptions made, the format and file type of the data and software used to collect and/or process the data.\n"
+"● Consider how you will capture this information and where it will be recorded, e.g., in a database with links to each item, in a ‘readme’ text file, in file headers, etc."
+
+msgid ""
+"● Investigators carrying out research involving human participants should request consent to preserve and share the data. Do not just ask for permission to use the data in your study or make unnecessary promises to delete it at the end.\n"
+"● Consider how you will protect the identity of participants, e.g., via anonymisation or using managed access procedures.\n"
+"● Ethical issues may affect how you store and transfer data, who can see/use it and how long it is kept. You should demonstrate that you are aware of this and have planned accordingly.\n"
+"● See <a href='https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing' title='UK Data Service guidance on consent for data sharing'>UK Data Service guidance on consent for data sharing</a>\n"
+"● See <a href='http://www.icpsr.umich.edu/icpsrweb/content/datamanagement/confidentiality/index.html' title='ICPSR approach to confidentiality'>ICPSR approach to confidentiality</a> and Health Insurance Portability and Accountability Act <a href='https://privacyruleandresearch.nih.gov/' title='(HIPAA) regulations for health research'>(HIPAA) regulations for health research</a>"
+msgstr ""
+"● Investigators carrying out research involving human participants should request consent to preserve and share the data. Do not just ask for permission to use the data in your study or make unnecessary promises to delete it at the end.\n"
+"● Consider how you will protect the identity of participants, e.g., via anonymisation or using managed access procedures.\n"
+"● Ethical issues may affect how you store and transfer data, who can see/use it and how long it is kept. You should demonstrate that you are aware of this and have planned accordingly.\n"
+"● See <a href='https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing' title='UK Data Service guidance on consent for data sharing'>UK Data Service guidance on consent for data sharing</a>\n"
+"● See <a href='http://www.icpsr.umich.edu/icpsrweb/content/datamanagement/confidentiality/index.html' title='ICPSR approach to confidentiality'>ICPSR approach to confidentiality</a> and Health Insurance Portability and Accountability Act <a href='https://privacyruleandresearch.nih.gov/' title='(HIPAA) regulations for health research'>(HIPAA) regulations for health research</a>"
+
+msgid ""
+"● State who will own the copyright and IPR of any new data that you will generate. For multi-partner projects, IPR ownership should be covered in the consortium agreement.\n"
+"● Outline any restrictions needed on data sharing, e.g., to protect proprietary or patentable data.\n"
+"● Explain how the data will be licensed for reuse. See the <a href='http://www.dcc.ac.uk/resources/how-guides/license-research-data' title='DCC guide on How to license research data'>DCC guide on How to license research data</a> and <a href='https://ufal.github.io/public-license-selector' title='EUDAT’s data and software licensing wizard'>EUDAT’s data and software licensing wizard</a>."
+msgstr ""
+"● State who will own the copyright and IPR of any new data that you will generate. For multi-partner projects, IPR ownership should be covered in the consortium agreement.\n"
+"● Outline any restrictions needed on data sharing, e.g., to protect proprietary or patentable data.\n"
+"● Explain how the data will be licensed for reuse. See the <a href='http://www.dcc.ac.uk/resources/how-guides/license-research-data' title='DCC guide on How to license research data'>DCC guide on How to license research data</a> and <a href='https://ufal.github.io/public-license-selector' title='EUDAT’s data and software licensing wizard'>EUDAT’s data and software licensing wizard</a>."
+
+msgid ""
+"● Describe where the data will be stored and backed up during the course of research activities. This may vary if you are doing fieldwork or working across multiple sites so explain each procedure.\n"
+"● Identify who will be responsible for backup and how often this will be performed. The use of robust, managed storage with automatic backup, for example, that provided by university IT teams, is preferable. Storing data on laptops, computer hard drives or external storage devices alone is very risky.\n"
+"● See <a href='https://www.ukdataservice.ac.uk/manage-data/store' title='UK Data Service Guidance on data storage'>UK Data Service Guidance on data storage</a> or <a href='https://www.dataone.org/best-practices/storage' title='DataONE Best Practices for storage'>DataONE Best Practices for storage</a>\n"
+"● Also consider data security, particularly if your data is sensitive e.g., detailed personal data, politically sensitive information or trade secrets. Note the main risks and how these will be managed.\n"
+"● Identify any formal standards that you will comply with, e.g., ISO 27001. See the <a href='http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/information-security-management-iso-27000-iso-27k-s' title='DCC Briefing Paper on Information Security Management -ISO 27000'>DCC Briefing Paper on Information Security Management -ISO 27000</a> and <a href='https://www.ukdataservice.ac.uk/manage-data/store/security' title='UK Data Service guidance on data security'>UK Data Service guidance on data security</a>"
+msgstr ""
+"● Describe where the data will be stored and backed up during the course of research activities. This may vary if you are doing fieldwork or working across multiple sites so explain each procedure.\n"
+"● Identify who will be responsible for backup and how often this will be performed. The use of robust, managed storage with automatic backup, for example, that provided by university IT teams, is preferable. Storing data on laptops, computer hard drives or external storage devices alone is very risky.\n"
+"● See <a href='https://www.ukdataservice.ac.uk/manage-data/store' title='UK Data Service Guidance on data storage'>UK Data Service Guidance on data storage</a> or <a href='https://www.dataone.org/best-practices/storage' title='DataONE Best Practices for storage'>DataONE Best Practices for storage</a>\n"
+"● Also consider data security, particularly if your data is sensitive e.g., detailed personal data, politically sensitive information or trade secrets. Note the main risks and how these will be managed.\n"
+"● Identify any formal standards that you will comply with, e.g., ISO 27001. See the <a href='http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/information-security-management-iso-27000-iso-27k-s' title='DCC Briefing Paper on Information Security Management -ISO 27000'>DCC Briefing Paper on Information Security Management -ISO 27000</a> and <a href='https://www.ukdataservice.ac.uk/manage-data/store/security' title='UK Data Service guidance on data security'>UK Data Service guidance on data security</a>"
+
+msgid ""
+"● How will you share the data e.g. deposit in a data repository, use a secure data service, handle data requests directly or use another mechanism? The methods used will depend on a number of factors such as the type, size, complexity and sensitivity of the data.\n"
+"● When will you make the data available? Research funders expect timely release. They typically allow embargoes but not prolonged exclusive use.\n"
+"● Who will be able to use your data? If you need to restricted access to certain communities or apply data sharing agreements, explain why.\n"
+"● Consider strategies to minimise restrictions on sharing. These may include anonymising or aggregating data, gaining participant consent for data sharing, gaining copyright permissions, and agreeing a limited embargo period.\n"
+"● How might your data be reused in other contexts? Where there is potential for reuse, you should use standards and formats that facilitate this, and ensure that appropriate metadata is available online so your data can be discovered. Persistent identifiers should be applied so people can reliably and efficiently find your data. They also help you to track citations and reuse."
+msgstr ""
+"● How will you share the data e.g. deposit in a data repository, use a secure data service, handle data requests directly or use another mechanism? The methods used will depend on a number of factors such as the type, size, complexity and sensitivity of the data.\n"
+"● When will you make the data available? Research funders expect timely release. They typically allow embargoes but not prolonged exclusive use.\n"
+"● Who will be able to use your data? If you need to restricted access to certain communities or apply data sharing agreements, explain why.\n"
+"● Consider strategies to minimise restrictions on sharing. These may include anonymising or aggregating data, gaining participant consent for data sharing, gaining copyright permissions, and agreeing a limited embargo period.\n"
+"● How might your data be reused in other contexts? Where there is potential for reuse, you should use standards and formats that facilitate this, and ensure that appropriate metadata is available online so your data can be discovered. Persistent identifiers should be applied so people can reliably and efficiently find your data. They also help you to track citations and reuse."
+
+msgid ""
+"● Where will the data be deposited? If you do not propose to use an established repository, the data management plan should demonstrate that the data can be curated effectively beyond the lifetime of the grant.\n"
+"● It helps to show that you have consulted with the repository to understand their policies and procedures, including any metadata standards.\n"
+"● An international list of data repositories is available via <a href='http://www.re3data.org/' title='Re3data'>Re3data</a> and some universities or publishers provide lists of recommendations e.g. <a href='http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories' title='PLOS ONE recommended repositories'>PLOS ONE recommended repositories</a>"
+msgstr ""
+"● Where will the data be deposited? If you do not propose to use an established repository, the data management plan should demonstrate that the data can be curated effectively beyond the lifetime of the grant.\n"
+"● It helps to show that you have consulted with the repository to understand their policies and procedures, including any metadata standards.\n"
+"● An international list of data repositories is available via <a href='http://www.re3data.org/' title='Re3data'>Re3data</a> and some universities or publishers provide lists of recommendations e.g. <a href='http://journals.plos.org/plosone/s/data-availability#loc-recommended-repositories' title='PLOS ONE recommended repositories'>PLOS ONE recommended repositories</a>"
+
+msgid ""
+"● Indicate which data are of long-term value and should be shared and/or preserved.\n"
+"● Outline the plans for data sharing and preservation - how long will the data be retained and where will it be archived?\n"
+"● Will additional resources be needed to prepare data for deposit or meet any charges from data repositories? See the DCC guide: <a href='http://www.dcc.ac.uk/resources/how-guides/appraise-select-data' title='How to appraise and select research data for curation'>How to appraise and select research data for curation</a> or DataONE Best Practices: <a href='https://www.dataone.org/best-practices/identify-data-long-term-value' title='Identifying data with long-term value'>Identifying data with long-term value</a>"
+msgstr ""
+"● Indicate which data are of long-term value and should be shared and/or preserved.\n"
+"● Outline the plans for data sharing and preservation - how long will the data be retained and where will it be archived?\n"
+"● Will additional resources be needed to prepare data for deposit or meet any charges from data repositories? See the DCC guide: <a href='http://www.dcc.ac.uk/resources/how-guides/appraise-select-data' title='How to appraise and select research data for curation'>How to appraise and select research data for curation</a> or DataONE Best Practices: <a href='https://www.dataone.org/best-practices/identify-data-long-term-value' title='Identifying data with long-term value'>Identifying data with long-term value</a>"
+
+msgid ""
+"● Outline the roles and responsibilities for all activities, e.g., data capture, metadata production, data quality, storage and backup, data archiving & data sharing. Individuals should be named where possible.\n"
+"● For collaborative projects you should explain the coordination of data management responsibilities across partners.\n"
+"● See UK Data Service guidance on <a href='https://www.ukdataservice.ac.uk/manage-data/plan/roles-and-responsibilities' title='data management roles and responsibilities'>data management roles and responsibilities</a> or DataONE Best Practices: <a href='https://www.dataone.org/best-practices/define-roles-and-assign-responsibilities-data-management' title='Define roles and assign responsibilities for data management'>Define roles and assign responsibilities for data management</a>"
+msgstr ""
+"● Outline the roles and responsibilities for all activities, e.g., data capture, metadata production, data quality, storage and backup, data archiving & data sharing. Individuals should be named where possible.\n"
+"● For collaborative projects you should explain the coordination of data management responsibilities across partners.\n"
+"● See UK Data Service guidance on <a href='https://www.ukdataservice.ac.uk/manage-data/plan/roles-and-responsibilities' title='data management roles and responsibilities'>data management roles and responsibilities</a> or DataONE Best Practices: <a href='https://www.dataone.org/best-practices/define-roles-and-assign-responsibilities-data-management' title='Define roles and assign responsibilities for data management'>Define roles and assign responsibilities for data management</a>"
+
+msgid ""
+"● Carefully consider and justify any resources needed to deliver the plan.  These may include storage costs, hardware, staff time, costs of preparing data for deposit and repository charges.\n"
+"● Outline any relevant technical expertise, support and training that is likely to be required and how it will be acquired.\n"
+"● If you are not depositing in a data repository, ensure you have appropriate resources and systems in place to share and preserve the data. See UK Data Service guidance on <a href='https://www.ukdataservice.ac.uk/manage-data/plan/costing' title='costing data management'>costing data management</a>"
+msgstr ""
+"● Carefully consider and justify any resources needed to deliver the plan.  These may include storage costs, hardware, staff time, costs of preparing data for deposit and repository charges.\n"
+"● Outline any relevant technical expertise, support and training that is likely to be required and how it will be acquired.\n"
+"● If you are not depositing in a data repository, ensure you have appropriate resources and systems in place to share and preserve the data. See UK Data Service guidance on <a href='https://www.ukdataservice.ac.uk/manage-data/plan/costing' title='costing data management'>costing data management</a>"
+
+msgid ""
+"● Consider whether there are any existing procedures that you can base your approach on. If your group/department has local guidelines that you work to, point to them here.\n"
+"● List any other relevant funder, institutional, departmental or group policies on data management, data sharing and data security."
+msgstr ""
+"● Considere si hay procedimientos en los que puede basar su investigación. Si su grupo/departamento tiene directrices locales sobre como trabajar, enlácelas aquí\n"
+"● Enumere cualquier otra política sobre administración de datos, compartición de datos o seguridad que sea relevante: Puede ser departamental, institucional, de su grupo, de su agencia de financiación."
+
+msgid "Please tell us how much data you plan to collect and what format it will be in once its deposited"
+msgstr "Por favor indique que cantidad de datos planea recolectar y en que formato serán depositados"

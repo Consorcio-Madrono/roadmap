@@ -219,6 +219,7 @@
                 <dt><%= annotation.type.humanize %></dt>
                 <dd>
                   <div class="display-readonly-textarea-content">
+
                     <%= annotation.text.present? ? sanitize(annotation.text) : _('None provided') %>
                   <div class="display-readonly-textarea-content">
                 </dd>

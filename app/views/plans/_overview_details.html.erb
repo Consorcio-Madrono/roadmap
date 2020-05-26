@@ -13,7 +13,7 @@
     <p>
       <div class="display-readonly-textarea-content">
         <!-- Madroño template translation -->
-        <%= _(sanitize(plan.template.description)) %>
+        <%= render html: _(plan.template.description).html_safe %>
       </div>
     </p>
     <p>

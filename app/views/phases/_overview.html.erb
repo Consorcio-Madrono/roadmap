@@ -8,7 +8,7 @@
     <p class="text-justify">
         <div class="display-readonly-textarea-content">
           <!-- Madroño template translation -->
-          <%= _(sanitize(phase.description)) %>
+          <%= render html: _(phase.description).html_safe %>
         </div>
     </p>
   </div>
@@ -24,7 +24,7 @@
               <li>
                 <div class="display-readonly-textarea-content">
                   <!-- Madroño : Template translation -->
-                  <%= _(sanitize(q.text)) %>
+                  <%= render html: _(q.text).html_safe %>
                 </div>
               </li>
             <% end %>

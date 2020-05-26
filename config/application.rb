@@ -10,10 +10,11 @@ require 'csv'
 # If you precompile assets before deploying to production, use this line
 #Bundler.require(*Rails.groups(:assets => %w(development test)))
 # If you want your assets lazily compiled in production, use this line
-# Bundler.require(:default, :assets, Rails.env)
+Bundler.require(:default, :assets, Rails.env)
 #end
 #Bundler.require(:default, Rails.env)
-Bundler.require(*Rails.groups(:assets => %w(development)))
+Bundler.require(*Rails.groups(:assets => %w(production)))
+#Bundler.require(*Rails.groups(:assets => %w(development)))
 #Changed when migrated to rails 4.0.0
 Bundler.require(*Rails.groups)
 
