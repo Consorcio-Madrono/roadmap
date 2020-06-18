@@ -57,13 +57,7 @@ class PlansController < ApplicationController
 
     # If the template_id is blank then we need to look up the available templates and
     # return JSON
-    if plan_params[:template_id].blank?
-      # Something went wrong there should always be a template id
-      respond_to do |format|
-        flash[:alert] = _("Unable to identify a suitable template for your plan.")
-        format.html { redirect_to new_plan_path }
-      end
-    else
+    if true # Consorcio Madroño remove plan selection. View 2.1.6 orig code
       # Otherwise create the plan
       if current_user.surname.blank?
         @plan.principal_investigator = nil
@@ -84,7 +78,7 @@ class PlansController < ApplicationController
                            plan_params[:visibility]
                          end
 
-      @plan.template = Template.find(plan_params[:template_id])
+      @plan.template = Template.find(21) # Consorcio Madroño remove plan selection. View 2.1.6 orig code
 
       if plan_params[:title].blank?
         @plan.title = if current_user.firstname.blank?

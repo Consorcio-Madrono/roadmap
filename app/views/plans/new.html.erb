@@ -72,10 +72,10 @@
         </div>
       </div>
 
+      <!-- Consorcio Madroño: Remove plan selection View 2.1.6 orig code --> 
       <!-- Funder selection -->
-      <input type="hidden" id="plan_funder_name" name="plan[funder_name]" value="">
-      <!-- Consorcio Madroño. hardcode the default template to evite question about Funder -->
-      <input type="hidden" id="plan_template_id" name="plan[template_id]" value="21">
+      <%= f.hidden_field("template_id", value: 21) %>
+      <%= f.hidden_field("funder_name", value: "European Commission (H2020)") %>
 
       <!-- Template selection -->
 

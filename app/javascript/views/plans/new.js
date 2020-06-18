@@ -8,14 +8,13 @@ import { renderAlert, hideNotifications } from '../../utils/notificationHelper';
 $(() => {
   const toggleSubmit = () => {
     const tmplt = $('#plan_template_id').find(':selected').val();
-    const tmplt = $('#plan_template_id').find(':selected').val();
     if (isString(tmplt)) {
       $('#new_plan button[type="submit"]').removeAttr('disabled')
         .removeAttr('data-toggle').removeAttr('title');
-    }/* else {
-      $('#new_plan button[type="submit"]').attr('disabled', true)
-        .attr('data-toggle', 'tooltip').attr('title', getConstant('NEW_PLAN_DISABLED_TOOLTIP'));
-    }*/
+    } // else {
+    // $('#new_plan button[type="submit"]').attr('disabled', true)
+    //  .attr('data-toggle', 'tooltip').attr('title', getConstant('NEW_PLAN_DISABLED_TOOLTIP'));
+    // }
   };
 
   // AJAX error function for available template search
